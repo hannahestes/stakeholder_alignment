@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "frontier_size": 5,
+    "dataset": "/Users/hmestes/gits/moot/optimize/financial_data/BankChurners.csv",
+    "stability_metric": "Feature frequency (%)",
+    "accuracy_range": "64%-76%",
+    "stability_range": "0%-72%"
+  },
+  "frontier_trees": [
+    {
+      "rank": 1,
+      "run": 24,
+      "accuracy": 76,
+      "num_features": 5,
+      "features": [
+        "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",
+        "card_Category",
+        "education_Level",
+        "income_Category",
+        "marital_Status"
+      ],
+      "stability": 52.0,
+      "raw_output": " #rows  win\n     7   74    if card_Category == Silver\n     3   82    |  if education_Level == High School;\n    23  -22    if card_Category == Blue\n    14   -6    |  if marital_Status == Married\n    10    5    |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.0001953\n     5   21    |  |  |  if income_Category == $80K - $120K;\n     4  -37    |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.0001953;\n     6  -57    |  if marital_Status == Single;\n19 5 education_Level, marital_Status, income_Category, card_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1\n63 76\n"
+    },
+    {
+      "rank": 2,
+      "run": 43,
+      "accuracy": 74,
+      "num_features": 4,
+      "features": [
+        "Avg_Utilization_Ratio",
+        "card_Category",
+        "education_Level",
+        "income_Category"
+      ],
+      "stability": 60.0,
+      "raw_output": " #rows  win\n    19   21    if Avg_Utilization_Ratio > 0\n    10   54    |  if Avg_Utilization_Ratio <= 0.175\n     6   67    |  |  if income_Category == $80K - $120K\n     3   85    |  |  |  if Avg_Utilization_Ratio <= 0.09;\n     3   49    |  |  |  if Avg_Utilization_Ratio > 0.09;\n     9  -14    |  if Avg_Utilization_Ratio > 0.175\n     3    5    |  |  if education_Level == Graduate;\n    11  -37    if Avg_Utilization_Ratio <= 0\n     9  -48    |  if card_Category == Blue\n     3  -29    |  |  if education_Level == Graduate;\n     3  -56    |  |  if education_Level == Post-Graduate;\n19 4 education_Level, income_Category, card_Category, Avg_Utilization_Ratio\n65 74\n"
+    },
+    {
+      "rank": 3,
+      "run": 5,
+      "accuracy": 71,
+      "num_features": 2,
+      "features": [
+        "income_Category",
+        "marital_Status"
+      ],
+      "stability": 71.0,
+      "raw_output": " #rows  win\n     3   56    if income_Category == $120K +;\n     3   22    if income_Category == Unknown;\n     8   15    if income_Category == $60K - $80K;\n     6   -1    if income_Category == $80K - $120K\n     3   35    |  if marital_Status == Married;\n     5  -26    if income_Category == $40K - $60K;\n     5  -43    if income_Category == Less than $40K;\n19 2 marital_Status, income_Category\n66 71\n"
+    },
+    {
+      "rank": 4,
+      "run": 2,
+      "accuracy": 64,
+      "num_features": 3,
+      "features": [
+        "education_Level",
+        "income_Category",
+        "marital_Status"
+      ],
+      "stability": 72.0,
+      "raw_output": " #rows  win\n     7   26    if income_Category == $80K - $120K\n     3   18    |  if education_Level == Graduate;\n     7   -3    if income_Category == $60K - $80K\n     4    4    |  if marital_Status == Married;\n     6   -8    if income_Category == Unknown;\n     4  -10    if income_Category == $40K - $60K;\n     4  -25    if income_Category == Less than $40K;\n19 3 education_Level, marital_Status, income_Category\n100 64\n"
+    },
+    {
+      "rank": 5,
+      "run": 8,
+      "accuracy": 64,
+      "num_features": 0,
+      "features": [],
+      "stability": 0,
+      "raw_output": " #rows  win\n     4   34    if income_Category == $120K +;\n     5   31    if income_Category == $80K - $120K;\n     4    0    if income_Category == Unknown;\n     7    0    if income_Category == $60K - $80K;\n     6  -25    if income_Category == $40K - $60K;\n     4  -34    if income_Category == Less than $40K;\n19 1 income_Category\n77 64\n"
+    }
+  ]
+}

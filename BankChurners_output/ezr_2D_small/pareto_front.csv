@@ -1,0 +1,3 @@
+run_num,features,complexity,win,on_knee
+21,"education_Level, income_Category, card_Category, Total_Relationship_Count",4,98,False
+26,"income_Category, card_Category",2,74,True

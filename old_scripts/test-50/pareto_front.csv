@@ -1,0 +1,5 @@
+run_num,features,complexity,win,on_knee
+35,"CLIENTNUM, attrition_Flag, gender, education_Level, marital_Status, income_Category, card_Category",7,-3,False
+41,"education_Level, income_Category, Total_Trans_Amt, Avg_Utilization_Ratio",4,-9,False
+50,"gender, income_Category, Total_Trans_Amt",3,-15,False
+9,"education_Level, Avg_Utilization_Ratio",2,-21,True

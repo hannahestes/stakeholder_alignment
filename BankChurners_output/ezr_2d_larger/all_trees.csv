@@ -1,0 +1,51 @@
+run_num,features,complexity,win,on_frontier
+1,"education_Level, income_Category, card_Category, Months_Inactive_12_mon",4,68,False
+2,"marital_Status, income_Category, Avg_Utilization_Ratio",3,69,False
+3,"education_Level, income_Category, card_Category",3,74,False
+4,"attrition_Flag, marital_Status, income_Category",3,49,False
+5,"education_Level, income_Category",2,40,False
+6,"education_Level, marital_Status, income_Category, card_Category, Avg_Utilization_Ratio",5,51,False
+7,"education_Level, income_Category",2,66,False
+8,"attrition_Flag, income_Category, card_Category, Avg_Utilization_Ratio",4,71,False
+9,"attrition_Flag, marital_Status, income_Category, card_Category, Contacts_Count_12_mon",5,74,False
+10,"education_Level, marital_Status, income_Category",3,37,False
+11,"gender, education_Level, income_Category",3,67,False
+12,"education_Level, marital_Status, income_Category, card_Category",4,69,False
+13,"CLIENTNUM, income_Category, Avg_Utilization_Ratio",3,58,False
+14,"education_Level, income_Category, Total_Trans_Amt",3,70,False
+15,"income_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",2,52,False
+16,"gender, education_Level, marital_Status, income_Category",4,54,False
+17,"education_Level, income_Category, card_Category, Total_Relationship_Count",4,29,False
+18,"gender, marital_Status, income_Category, card_Category, Avg_Utilization_Ratio",5,66,False
+19,"Dependent_count, income_Category, Avg_Utilization_Ratio",3,67,False
+20,"education_Level, income_Category, card_Category",3,63,False
+21,"Dependent_count, education_Level, marital_Status, income_Category, Total_Trans_Ct",5,57,False
+22,"education_Level, marital_Status, Avg_Utilization_Ratio",3,77,True
+23,"education_Level, income_Category, card_Category, Avg_Utilization_Ratio",4,68,False
+24,"income_Category, Avg_Utilization_Ratio",2,68,True
+25,"income_Category, Total_Trans_Amt, Avg_Utilization_Ratio",3,58,False
+26,"education_Level, income_Category, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt, Total_Trans_Ct, Avg_Utilization_Ratio",6,100,True
+27,"education_Level, income_Category, card_Category",3,66,False
+28,"education_Level, income_Category",2,63,False
+29,"income_Category, card_Category, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt",4,70,False
+30,"CLIENTNUM, marital_Status, income_Category, card_Category",4,25,False
+31,"gender, education_Level, marital_Status, income_Category",4,47,False
+32,"income_Category, card_Category, Total_Relationship_Count, Contacts_Count_12_mon, Avg_Utilization_Ratio",5,78,False
+33,"education_Level, marital_Status, income_Category, Avg_Utilization_Ratio",4,61,False
+34,"education_Level, marital_Status, income_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",4,68,False
+35,"Customer_Age, education_Level, income_Category, Avg_Utilization_Ratio",4,49,False
+36,"education_Level, marital_Status, income_Category, Avg_Utilization_Ratio",4,62,False
+37,"income_Category, card_Category, Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2",4,64,False
+38,"attrition_Flag, education_Level, marital_Status, income_Category, card_Category",5,0,False
+39,"attrition_Flag, education_Level, card_Category, Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2",5,69,False
+40,"attrition_Flag, education_Level, income_Category",3,45,False
+41,"income_Category, card_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",3,69,False
+42,"attrition_Flag, marital_Status, income_Category",3,62,False
+43,"attrition_Flag, gender, education_Level, income_Category",4,46,False
+44,"education_Level, income_Category, card_Category, Avg_Utilization_Ratio",4,98,True
+45,"attrition_Flag, Customer_Age, gender, education_Level, income_Category, Avg_Utilization_Ratio",6,48,False
+46,"attrition_Flag, income_Category, Months_on_book, Total_Trans_Amt",4,13,False
+47,"attrition_Flag, gender, education_Level, income_Category, Avg_Utilization_Ratio",5,63,False
+48,"income_Category, card_Category, Avg_Utilization_Ratio",3,58,False
+49,"education_Level, marital_Status, income_Category, Avg_Utilization_Ratio",4,64,False
+50,"income_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",2,34,False

@@ -1,0 +1,5 @@
+run_num,pareto_front_size,num_consensus_features,num_exploratory_features,accuracy_min,accuracy_max
+5,2,1,3,-33,-26
+10,3,1,8,-32,-15
+15,3,0,10,-20,-15
+20,3,0,12,-20,-15

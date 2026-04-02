@@ -1,0 +1,292 @@
+rule,conditions,specificity,occurrences,penetration_%,avg_win,avg_rows,coverage_%,impact_score,roi_win_per_row,recommendation
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.1),2,NESTED (2 conditions),1,2.0%,47.0,16.0,23.6%,7.73,2.94,⭐ EASY WIN
+(Avg_Utilization_Ratio <= 0.094) AND (Avg_Utilization_Ratio > 0),2,NESTED (2 conditions),1,2.0%,66.0,9.0,13.3%,6.11,7.33,⭐ EASY WIN
+(Avg_Utilization_Ratio <= 0.138) AND (Avg_Utilization_Ratio > 0.036),2,NESTED (2 conditions),1,2.0%,49.0,12.0,17.7%,6.05,4.08,⭐ EASY WIN
+(Total_Trans_Ct > 92),1,BROAD,1,2.0%,51.0,8.0,11.8%,5.93,6.38,⭐ EASY WIN
+(Avg_Utilization_Ratio <= 0.146) AND (Avg_Utilization_Ratio > 0),2,NESTED (2 conditions),1,2.0%,41.0,14.0,20.7%,5.90,2.93,⭐ EASY WIN
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.137),2,NESTED (2 conditions),1,2.0%,62.0,9.0,13.3%,5.74,6.89,⭐ EASY WIN
+(Customer_Age > 48),1,BROAD,1,2.0%,25.0,15.0,22.1%,5.45,1.67,⭐ EASY WIN
+(Avg_Utilization_Ratio <= 0.094),1,BROAD,1,2.0%,25.0,15.0,22.1%,5.45,1.67,⭐ EASY WIN
+(card_Category == Silver),1,BROAD,12,24.0%,47.7,7.8,11.6%,5.43,6.09,⭐ EASY WIN
+(Avg_Utilization_Ratio > 0),1,BROAD,5,10.0%,18.2,19.8,29.2%,5.24,0.92,⭐ EASY WIN
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.094),2,NESTED (2 conditions),1,2.0%,85.0,6.0,8.9%,5.24,14.17,⭐ EASY WIN
+(Avg_Utilization_Ratio <= 0.146),1,BROAD,1,2.0%,16.0,21.0,31.0%,4.89,0.76,✓ GOOD
+(Avg_Utilization_Ratio <= 0.146) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.07),3,NESTED (3 conditions),1,2.0%,64.0,9.0,13.3%,4.84,7.11,✓ GOOD
+(Customer_Age > 48) AND (Avg_Utilization_Ratio <= 0.174),2,NESTED (2 conditions),1,2.0%,51.0,9.0,13.3%,4.72,5.67,✓ GOOD
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21),2,NESTED (2 conditions),1,2.0%,20.0,22.0,32.5%,4.52,0.91,✓ GOOD
+(Avg_Utilization_Ratio <= 0.138),1,BROAD,1,2.0%,17.0,18.0,26.6%,4.45,0.94,✓ GOOD
+(Total_Trans_Amt > 5638),1,BROAD,1,2.0%,43.0,7.0,10.3%,4.38,6.14,✓ GOOD
+(Avg_Utilization_Ratio <= 0.174) AND (Avg_Utilization_Ratio > 0),2,NESTED (2 conditions),1,2.0%,42.0,10.0,14.8%,4.32,4.20,✓ GOOD
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.1) AND (income_Category == $80K - $120K),3,NESTED (3 conditions),1,2.0%,56.0,9.0,13.3%,4.23,6.22,✓ GOOD
+(Total_Trans_Ct > 71),1,BROAD,1,2.0%,16.0,18.0,26.6%,4.19,0.89,✓ GOOD
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio > 0),2,NESTED (2 conditions),1,2.0%,43.0,9.0,13.3%,3.98,4.78,✓ GOOD
+(card_Category == Gold),1,BROAD,1,2.0%,89.0,3.0,4.4%,3.88,29.67,✓ GOOD
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.227),2,NESTED (2 conditions),1,2.0%,50.0,7.0,10.3%,3.60,7.14,✓ GOOD
+(Avg_Utilization_Ratio <= 0.151) AND (Avg_Utilization_Ratio > 0),2,NESTED (2 conditions),1,2.0%,38.0,9.0,13.3%,3.52,4.22,✓ GOOD
+(income_Category == Unknown) AND (attrition_Flag == Existing Customer),2,NESTED (2 conditions),1,2.0%,57.0,6.0,8.9%,3.52,9.50,✓ GOOD
+(Avg_Utilization_Ratio <= 0.174),1,BROAD,1,2.0%,15.0,16.0,23.6%,3.49,0.94,✓ GOOD
+(Avg_Utilization_Ratio <= 0.125),1,BROAD,1,2.0%,16.0,15.0,22.1%,3.49,1.07,✓ GOOD
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.094) AND (card_Category == Blue),3,NESTED (3 conditions),1,2.0%,82.0,5.0,7.4%,3.44,16.40,✓ GOOD
+(Avg_Utilization_Ratio <= 0.151) AND (Avg_Utilization_Ratio > 0) AND (attrition_Flag == Existing Customer),3,NESTED (3 conditions),1,2.0%,49.0,8.0,11.8%,3.29,6.12,✓ GOOD
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $80K - $120K),3,NESTED (3 conditions),1,2.0%,39.0,10.0,14.8%,3.27,3.90,✓ GOOD
+(Avg_Utilization_Ratio <= 0.151),1,BROAD,1,2.0%,17.0,13.0,19.2%,3.21,1.31,✓ GOOD
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553),1,BROAD,1,2.0%,8.0,27.0,39.8%,3.14,0.30,✓ GOOD
+(income_Category == $80K - $120K),1,BROAD,17,34.0%,28.3,7.2,10.6%,2.95,3.94,✓ GOOD
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.137) AND (Avg_Utilization_Ratio <= 0.064),3,NESTED (3 conditions),1,2.0%,87.0,4.0,5.9%,2.92,21.75,✓ GOOD
+(Total_Trans_Amt > 5638) AND (income_Category == $80K - $120K),2,NESTED (2 conditions),1,2.0%,94.0,3.0,4.4%,2.90,31.33,✓ GOOD
+(income_Category == $80K - $120K) AND (attrition_Flag == Existing Customer),2,NESTED (2 conditions),1,2.0%,53.0,5.0,7.4%,2.72,10.60,✓ GOOD
+(income_Category == $120K +) AND (Months_on_book <= 36),2,NESTED (2 conditions),1,2.0%,44.0,6.0,8.9%,2.71,7.33,✓ GOOD
+(Customer_Age > 48) AND (Avg_Utilization_Ratio <= 0.174) AND (Months_on_book <= 36),3,NESTED (3 conditions),1,2.0%,79.0,4.0,5.9%,2.65,19.75,✓ GOOD
+(education_Level == Uneducated),1,BROAD,1,2.0%,30.0,6.0,8.9%,2.62,5.00,✓ GOOD
+(card_Category == Silver) AND (income_Category == $80K - $120K),2,NESTED (2 conditions),2,4.0%,62.0,4.0,5.9%,2.55,15.50,✓ GOOD
+(Avg_Utilization_Ratio <= 0.146) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.07) AND (income_Category == $80K - $120K),4,NESTED (4 conditions),1,2.0%,58.0,6.0,8.9%,2.53,9.67,✓ GOOD
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.073),2,NESTED (2 conditions),1,2.0%,49.0,5.0,7.4%,2.52,9.80,✓ GOOD
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.094) AND (card_Category == Blue) AND (income_Category == $80K - $120K),4,NESTED (4 conditions),1,2.0%,84.0,4.0,5.9%,2.44,21.00,✓ GOOD
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio > 0) AND (card_Category == Blue),3,NESTED (3 conditions),1,2.0%,38.0,7.0,10.3%,2.23,5.43,✓ GOOD
+(income_Category == $60K - $80K) AND (Avg_Utilization_Ratio <= 0.102),2,NESTED (2 conditions),1,2.0%,72.0,3.0,4.4%,2.22,24.00,✓ GOOD
+(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio <= 0.115),2,NESTED (2 conditions),1,2.0%,70.0,3.0,4.4%,2.16,23.33,✓ GOOD
+(card_Category == Silver) AND (income_Category == $60K - $80K),2,NESTED (2 conditions),2,4.0%,60.0,3.5,5.2%,2.16,17.14,✓ GOOD
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio > 0) AND (card_Category == Blue) AND (gender == M),4,NESTED (4 conditions),1,2.0%,49.0,6.0,8.9%,2.14,8.17,✓ GOOD
+(card_Category == Silver) AND (education_Level == High School),2,NESTED (2 conditions),1,2.0%,67.0,3.0,4.4%,2.07,22.33,✓ GOOD
+(income_Category == $120K +) AND (education_Level == Uneducated),2,NESTED (2 conditions),1,2.0%,67.0,3.0,4.4%,2.07,22.33,✓ GOOD
+(Avg_Utilization_Ratio <= 0.174) AND (Avg_Utilization_Ratio > 0) AND (card_Category == Blue),3,NESTED (3 conditions),1,2.0%,32.0,7.0,10.3%,1.88,4.57,⚠️ RARE
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $80K - $120K) AND (education_Level == Graduate),4,NESTED (4 conditions),1,2.0%,37.0,7.0,10.3%,1.88,5.29,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.094) AND (Avg_Utilization_Ratio > 0) AND (education_Level == Graduate),3,NESTED (3 conditions),1,2.0%,73.0,3.0,4.4%,1.84,24.33,⚠️ RARE
+(education_Level == Unknown),1,BROAD,1,2.0%,42.0,3.0,4.4%,1.83,14.00,⚠️ RARE
+(Total_Trans_Ct > 92) AND (education_Level == Uneducated),2,NESTED (2 conditions),1,2.0%,59.0,3.0,4.4%,1.82,19.67,⚠️ RARE
+(income_Category == $80K - $120K) AND (Total_Trans_Amt > 4785),2,NESTED (2 conditions),1,2.0%,58.0,3.0,4.4%,1.79,19.33,⚠️ RARE
+(income_Category == $120K +),1,BROAD,10,20.0%,22.3,5.5,8.1%,1.78,4.05,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.151) AND (Avg_Utilization_Ratio > 0) AND (attrition_Flag == Existing Customer) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.0001736),4,NESTED (4 conditions),1,2.0%,80.0,3.0,4.4%,1.74,26.67,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.1) AND (income_Category == $80K - $120K) AND (marital_Status == Single),4,NESTED (4 conditions),1,2.0%,60.0,4.0,5.9%,1.74,15.00,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.137) AND (Avg_Utilization_Ratio > 0.064),3,NESTED (3 conditions),1,2.0%,41.0,5.0,7.4%,1.72,8.20,⚠️ RARE
+(income_Category == $80K - $120K) AND (education_Level == College),2,NESTED (2 conditions),2,4.0%,41.0,4.0,5.9%,1.69,10.25,⚠️ RARE
+(income_Category == $60K - $80K) AND (Customer_Age <= 49),2,NESTED (2 conditions),1,2.0%,23.0,7.0,10.3%,1.66,3.29,⚠️ RARE
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $80K - $120K) AND (education_Level == Graduate) AND (Avg_Utilization_Ratio > 0.032),5,NESTED (5 conditions),1,2.0%,63.0,4.0,5.9%,1.64,15.75,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $120K +) AND (Months_on_book <= 36),3,NESTED (3 conditions),1,2.0%,58.0,3.0,4.4%,1.46,19.33,⚠️ RARE
+(income_Category == $80K - $120K) AND (education_Level == High School),2,NESTED (2 conditions),1,2.0%,47.0,3.0,4.4%,1.45,15.67,⚠️ RARE
+(Total_Trans_Ct > 71) AND (education_Level == High School),2,NESTED (2 conditions),1,2.0%,20.0,7.0,10.3%,1.44,2.86,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.138) AND (Avg_Utilization_Ratio > 0.036) AND (education_Level == Graduate),3,NESTED (3 conditions),1,2.0%,42.0,4.0,5.9%,1.41,10.50,⚠️ RARE
+(card_Category == Silver) AND (income_Category == $120K +),2,NESTED (2 conditions),2,4.0%,43.5,3.0,4.4%,1.34,14.50,⚠️ RARE
+(income_Category == $60K - $80K) AND (education_Level == College),2,NESTED (2 conditions),1,2.0%,43.0,3.0,4.4%,1.33,14.33,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio > 0) AND (card_Category == Blue) AND (gender == M) AND (CLIENTNUM <= 715731033),5,NESTED (5 conditions),1,2.0%,67.0,3.0,4.4%,1.31,22.33,⚠️ RARE
+(card_Category == Silver) AND (marital_Status == Single),2,NESTED (2 conditions),1,2.0%,42.0,3.0,4.4%,1.30,14.00,⚠️ RARE
+(income_Category == Unknown) AND (attrition_Flag == Existing Customer) AND (education_Level == Uneducated),3,NESTED (3 conditions),1,2.0%,51.0,3.0,4.4%,1.28,17.00,⚠️ RARE
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749) AND (income_Category == $80K - $120K),3,NESTED (3 conditions),1,2.0%,25.0,6.0,8.9%,1.26,4.17,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.138) AND (Avg_Utilization_Ratio > 0.036) AND (education_Level == Unknown),3,NESTED (3 conditions),1,2.0%,37.0,4.0,5.9%,1.24,9.25,⚠️ RARE
+(Customer_Age > 48) AND (Avg_Utilization_Ratio <= 0.174) AND (Months_on_book > 36),3,NESTED (3 conditions),1,2.0%,29.0,5.0,7.4%,1.22,5.80,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.094) AND (Avg_Utilization_Ratio <= 0.256),3,NESTED (3 conditions),1,2.0%,18.0,8.0,11.8%,1.21,2.25,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.1) AND (income_Category == $80K - $120K) AND (marital_Status == Married),4,NESTED (4 conditions),1,2.0%,41.0,4.0,5.9%,1.19,10.25,⚠️ RARE
+(Total_Trans_Ct > 71) AND (education_Level == Unknown),2,NESTED (2 conditions),1,2.0%,38.0,3.0,4.4%,1.17,12.67,⚠️ RARE
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.065),3,NESTED (3 conditions),1,2.0%,46.0,3.0,4.4%,1.16,15.33,⚠️ RARE
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $80K - $120K) AND (education_Level == Graduate) AND (Avg_Utilization_Ratio > 0.032) AND (marital_Status == Divorced),6,NESTED (6 conditions),1,2.0%,65.0,3.0,4.4%,1.16,21.67,⚠️ RARE
+(income_Category == $60K - $80K) AND (Customer_Age <= 49) AND (Avg_Utilization_Ratio <= 0.054),3,NESTED (3 conditions),1,2.0%,34.0,4.0,5.9%,1.14,8.50,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.151) AND (Avg_Utilization_Ratio > 0) AND (attrition_Flag == Existing Customer) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.0001736),4,NESTED (4 conditions),1,2.0%,31.0,5.0,7.4%,1.13,6.20,⚠️ RARE
+(Total_Trans_Ct > 71) AND (education_Level == High School) AND (income_Category == $60K - $80K),3,NESTED (3 conditions),1,2.0%,32.0,4.0,5.9%,1.07,8.00,⚠️ RARE
+(income_Category == $120K +) AND (Months_on_book <= 36) AND (education_Level == High School),3,NESTED (3 conditions),1,2.0%,41.0,3.0,4.4%,1.03,13.67,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.137) AND (Avg_Utilization_Ratio > 0.064) AND (income_Category == Unknown),4,NESTED (4 conditions),1,2.0%,47.0,3.0,4.4%,1.03,15.67,⚠️ RARE
+(education_Level == Uneducated) AND (marital_Status == Married),2,NESTED (2 conditions),1,2.0%,31.0,3.0,4.4%,0.96,10.33,⚠️ RARE
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.18),3,NESTED (3 conditions),1,2.0%,27.0,4.0,5.9%,0.91,6.75,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.174) AND (Avg_Utilization_Ratio > 0) AND (card_Category == Blue) AND (marital_Status == Married),4,NESTED (4 conditions),1,2.0%,31.0,4.0,5.9%,0.90,7.75,⚠️ RARE
+(income_Category == $60K - $80K) AND (Customer_Age <= 49) AND (Avg_Utilization_Ratio <= 0.054) AND (marital_Status == Married),4,NESTED (4 conditions),1,2.0%,40.0,3.0,4.4%,0.87,13.33,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (education_Level == Unknown),3,NESTED (3 conditions),1,2.0%,34.0,3.0,4.4%,0.86,11.33,⚠️ RARE
+(income_Category == $40K - $60K) AND (attrition_Flag == Existing Customer),2,NESTED (2 conditions),1,2.0%,20.0,4.0,5.9%,0.82,5.00,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $120K +),2,NESTED (2 conditions),3,6.0%,15.0,5.3,7.9%,0.82,2.81,⚠️ RARE
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0.134),3,NESTED (3 conditions),1,2.0%,19.0,5.0,7.4%,0.80,3.80,⚠️ RARE
+(card_Category == Blue) AND (CLIENTNUM <= 711398433),2,NESTED (2 conditions),1,2.0%,26.0,3.0,4.4%,0.80,8.67,⚠️ RARE
+(Total_Trans_Ct > 71) AND (education_Level == Graduate),2,NESTED (2 conditions),1,2.0%,14.0,5.0,7.4%,0.72,2.80,⚠️ RARE
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $60K - $80K),3,NESTED (3 conditions),1,2.0%,28.0,3.0,4.4%,0.71,9.33,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (marital_Status == Married),3,NESTED (3 conditions),1,2.0%,28.0,3.0,4.4%,0.71,9.33,⚠️ RARE
+(education_Level == College),1,BROAD,1,2.0%,12.0,4.0,5.9%,0.70,3.00,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (education_Level == Graduate),3,NESTED (3 conditions),2,4.0%,27.5,3.0,4.4%,0.69,9.17,⚠️ RARE
+(income_Category == $60K - $80K) AND (attrition_Flag == Existing Customer),2,NESTED (2 conditions),1,2.0%,22.0,3.0,4.4%,0.68,7.33,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (education_Level == High School),3,NESTED (3 conditions),1,2.0%,20.0,4.0,5.9%,0.67,5.00,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $60K - $80K) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00030516),3,NESTED (3 conditions),1,2.0%,20.0,4.0,5.9%,0.67,5.00,⚠️ RARE
+(income_Category == $80K - $120K) AND (education_Level == Graduate),2,NESTED (2 conditions),4,8.0%,19.0,3.2,4.8%,0.63,5.85,⚠️ RARE
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (education_Level == High School),3,NESTED (3 conditions),1,2.0%,15.0,5.0,7.4%,0.63,3.00,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio > 0) AND (card_Category == Blue) AND (gender == M) AND (CLIENTNUM > 715731033),5,NESTED (5 conditions),1,2.0%,31.0,3.0,4.4%,0.60,10.33,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (Total_Relationship_Count <= 3),3,NESTED (3 conditions),1,2.0%,14.0,5.0,7.4%,0.59,2.80,⚠️ RARE
+(income_Category == $120K +) AND (card_Category == Blue) AND (education_Level == Uneducated),3,NESTED (3 conditions),1,2.0%,17.0,4.0,5.9%,0.57,4.25,⚠️ RARE
+(income_Category == $80K - $120K) AND (education_Level == Uneducated),2,NESTED (2 conditions),2,4.0%,17.5,3.0,4.4%,0.54,5.83,⚠️ RARE
+(Total_Trans_Amt <= 5638) AND (income_Category == $40K - $60K) AND (Avg_Utilization_Ratio > 0),3,NESTED (3 conditions),1,2.0%,20.0,3.0,4.4%,0.50,6.67,⚠️ RARE
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749),2,NESTED (2 conditions),1,2.0%,2.0,20.0,29.5%,0.41,0.10,⚠️ RARE
+(income_Category == $60K - $80K) AND (marital_Status == Married),2,NESTED (2 conditions),1,2.0%,8.0,5.0,7.4%,0.41,1.60,⚠️ RARE
+(income_Category == $80K - $120K) AND (marital_Status == Married),2,NESTED (2 conditions),1,2.0%,9.0,4.0,5.9%,0.37,2.25,⚠️ RARE
+(income_Category == $120K +) AND (card_Category == Blue),2,NESTED (2 conditions),2,4.0%,4.0,7.0,10.3%,0.29,0.57,⚠️ RARE
+(Customer_Age <= 48) AND (Avg_Utilization_Ratio > 0.063) AND (Contacts_Count_12_mon > 1),3,NESTED (3 conditions),1,2.0%,11.0,3.0,4.4%,0.28,3.67,⚠️ RARE
+(income_Category == $40K - $60K) AND (Total_Trans_Amt > 4797),2,NESTED (2 conditions),1,2.0%,9.0,3.0,4.4%,0.28,3.00,⚠️ RARE
+(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio > 0.115),2,NESTED (2 conditions),1,2.0%,7.0,3.0,4.4%,0.22,2.33,⚠️ RARE
+(income_Category == $60K - $80K),1,BROAD,16,32.0%,2.8,5.2,7.7%,0.21,0.52,⚠️ RARE
+(Total_Trans_Ct <= 92) AND (income_Category == $120K +),2,NESTED (2 conditions),1,2.0%,4.0,5.0,7.4%,0.21,0.80,⚠️ RARE
+(income_Category == $60K - $80K) AND (Customer_Age <= 49) AND (Avg_Utilization_Ratio > 0.054),3,NESTED (3 conditions),1,2.0%,8.0,3.0,4.4%,0.20,2.67,⚠️ RARE
+(Total_Trans_Amt <= 5638) AND (income_Category == $60K - $80K),2,NESTED (2 conditions),1,2.0%,4.0,4.0,5.9%,0.16,1.00,⚠️ RARE
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749) AND (income_Category == Less than $40K) AND (Dependent_count <= 0) AND (gender == F),5,NESTED (5 conditions),1,2.0%,6.0,3.0,4.4%,0.12,2.00,⚠️ RARE
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $40K - $60K),3,NESTED (3 conditions),1,2.0%,2.0,6.0,8.9%,0.10,0.33,⚠️ RARE
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749) AND (income_Category == Less than $40K) AND (Dependent_count <= 0),4,NESTED (4 conditions),1,2.0%,3.0,4.0,5.9%,0.09,0.75,⚠️ RARE
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (education_Level == Graduate),3,NESTED (3 conditions),1,2.0%,2.0,4.0,5.9%,0.07,0.50,⚠️ RARE
+(card_Category == Blue) AND (education_Level == Graduate) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00010684) AND (marital_Status == Single),4,NESTED (4 conditions),1,2.0%,3.0,3.0,4.4%,0.07,1.00,⚠️ RARE
+(card_Category == Blue) AND (income_Category == $80K - $120K),2,NESTED (2 conditions),7,14.0%,0.9,7.0,10.3%,0.06,0.12,⚠️ RARE
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio <= 0.21) AND (income_Category == $80K - $120K) AND (education_Level == Graduate) AND (Avg_Utilization_Ratio <= 0.032),5,NESTED (5 conditions),1,2.0%,3.0,3.0,4.4%,0.06,1.00,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.073) AND (education_Level == Graduate),3,NESTED (3 conditions),1,2.0%,2.0,3.0,4.4%,0.05,0.67,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.094) AND (Avg_Utilization_Ratio <= 0) AND (Total_Amt_Chng_Q4_Q1 > 0.794),3,NESTED (3 conditions),1,2.0%,1.0,3.0,4.4%,0.03,0.33,⚠️ RARE
+(card_Category == Silver) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,0.0,4.0,5.9%,0.00,0.00,⚠️ RARE
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.227) AND (education_Level == Unknown),3,NESTED (3 conditions),1,2.0%,0.0,4.0,5.9%,0.00,0.00,⚠️ RARE
+(Avg_Utilization_Ratio <= 0.146) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.07),3,NESTED (3 conditions),1,2.0%,0.0,5.0,7.4%,0.00,0.00,⚠️ RARE
+(Customer_Age > 48) AND (Avg_Utilization_Ratio > 0.174) AND (CLIENTNUM <= 720578058),3,NESTED (3 conditions),1,2.0%,-1.0,3.0,4.4%,-0.03,-0.33,❌ AVOID (negative)
+(income_Category == $60K - $80K) AND (Avg_Utilization_Ratio > 0.102),2,NESTED (2 conditions),1,2.0%,-1.0,3.0,4.4%,-0.03,-0.33,❌ AVOID (negative)
+(Total_Trans_Ct <= 71) AND (income_Category == $60K - $80K),2,NESTED (2 conditions),1,2.0%,-2.0,3.0,4.4%,-0.06,-0.67,❌ AVOID (negative)
+(education_Level == Graduate) AND (Customer_Age > 49),2,NESTED (2 conditions),1,2.0%,-2.0,3.0,4.4%,-0.06,-0.67,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == Graduate) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00010684),3,NESTED (3 conditions),1,2.0%,-2.0,5.0,7.4%,-0.08,-0.40,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.227) AND (education_Level == High School),3,NESTED (3 conditions),1,2.0%,-4.0,3.0,4.4%,-0.10,-1.33,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (Months_on_book <= 34),3,NESTED (3 conditions),1,2.0%,-4.0,3.0,4.4%,-0.10,-1.33,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638) AND (income_Category == $80K - $120K) AND (marital_Status == Single),3,NESTED (3 conditions),1,2.0%,-4.0,4.0,5.9%,-0.13,-1.00,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $40K - $60K) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.99971),3,NESTED (3 conditions),1,2.0%,-5.0,3.0,4.4%,-0.13,-1.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.094) AND (Avg_Utilization_Ratio <= 0.256) AND (education_Level == High School),4,NESTED (4 conditions),1,2.0%,-6.0,3.0,4.4%,-0.13,-2.00,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.065) AND (education_Level == Uneducated),4,NESTED (4 conditions),1,2.0%,-6.0,3.0,4.4%,-0.13,-2.00,❌ AVOID (negative)
+(income_Category == Unknown) AND (Avg_Utilization_Ratio > 0.331),2,NESTED (2 conditions),1,2.0%,-5.0,3.0,4.4%,-0.15,-1.67,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND (Total_Trans_Ct > 54) AND (income_Category == $60K - $80K),4,NESTED (4 conditions),1,2.0%,-7.0,3.0,4.4%,-0.15,-2.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.151) AND (Avg_Utilization_Ratio <= 0.355),2,NESTED (2 conditions),1,2.0%,-2.0,8.0,11.8%,-0.16,-0.25,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.073) AND (education_Level == Unknown) AND (income_Category == Less than $40K),4,NESTED (4 conditions),1,2.0%,-8.0,3.0,4.4%,-0.17,-2.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.073) AND (education_Level == Uneducated) AND (attrition_Flag == Existing Customer),4,NESTED (4 conditions),1,2.0%,-8.0,3.0,4.4%,-0.17,-2.67,❌ AVOID (negative)
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749) AND (income_Category == $40K - $60K),3,NESTED (3 conditions),1,2.0%,-7.0,3.0,4.4%,-0.18,-2.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.99389),2,NESTED (2 conditions),1,2.0%,-3.0,6.0,8.9%,-0.19,-0.50,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (CLIENTNUM > 721120008),2,NESTED (2 conditions),1,2.0%,-6.0,3.0,4.4%,-0.19,-2.00,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (education_Level == Unknown),2,NESTED (2 conditions),1,2.0%,-7.0,3.0,4.4%,-0.22,-2.33,❌ AVOID (negative)
+(income_Category == $60K - $80K) AND (Customer_Age > 49),2,NESTED (2 conditions),1,2.0%,-6.0,4.0,5.9%,-0.25,-1.50,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.146) AND (Avg_Utilization_Ratio <= 0) AND (income_Category == $120K +),3,NESTED (3 conditions),1,2.0%,-12.0,3.0,4.4%,-0.30,-4.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.073) AND (education_Level == Uneducated),3,NESTED (3 conditions),1,2.0%,-9.0,4.0,5.9%,-0.30,-2.25,❌ AVOID (negative)
+(Customer_Age <= 48) AND (Avg_Utilization_Ratio > 0.063),2,NESTED (2 conditions),1,2.0%,-5.0,6.0,8.9%,-0.31,-0.83,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.227),2,NESTED (2 conditions),1,2.0%,-3.0,10.0,14.8%,-0.31,-0.30,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638) AND (income_Category == $40K - $60K),2,NESTED (2 conditions),1,2.0%,-5.0,6.0,8.9%,-0.31,-0.83,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.125) AND (education_Level == High School),2,NESTED (2 conditions),1,2.0%,-8.0,4.0,5.9%,-0.33,-2.00,❌ AVOID (negative)
+(income_Category == $120K +) AND (card_Category == Blue) AND (marital_Status == Married),3,NESTED (3 conditions),1,2.0%,-8.0,5.0,7.4%,-0.34,-1.60,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.073) AND (education_Level == Unknown),3,NESTED (3 conditions),1,2.0%,-8.0,5.0,7.4%,-0.34,-1.60,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.1) AND (Months_on_book <= 31),3,NESTED (3 conditions),1,2.0%,-14.0,3.0,4.4%,-0.35,-4.67,❌ AVOID (negative)
+(income_Category == $80K - $120K) AND (Total_Trans_Amt <= 4785),2,NESTED (2 conditions),1,2.0%,-7.0,5.0,7.4%,-0.36,-1.40,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.125) AND (education_Level == Unknown),2,NESTED (2 conditions),1,2.0%,-9.0,4.0,5.9%,-0.37,-2.25,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.151) AND (Avg_Utilization_Ratio > 0.355) AND (marital_Status == Married),3,NESTED (3 conditions),1,2.0%,-15.0,3.0,4.4%,-0.38,-5.00,❌ AVOID (negative)
+(education_Level == High School) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-13.0,3.0,4.4%,-0.40,-4.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.137) AND (Contacts_Count_12_mon <= 2),3,NESTED (3 conditions),1,2.0%,-8.0,6.0,8.9%,-0.40,-1.33,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND (Total_Trans_Ct > 54),3,NESTED (3 conditions),1,2.0%,-7.0,7.0,10.3%,-0.41,-1.00,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (marital_Status == Married),2,NESTED (2 conditions),2,4.0%,-13.5,3.0,4.4%,-0.42,-4.50,❌ AVOID (negative)
+(income_Category == Unknown),1,BROAD,9,18.0%,-7.6,4.1,6.1%,-0.45,-1.84,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0) AND (income_Category == $80K - $120K),2,NESTED (2 conditions),2,4.0%,-12.5,3.5,5.2%,-0.45,-3.57,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.073),2,NESTED (2 conditions),1,2.0%,-3.0,15.0,22.1%,-0.46,-0.20,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.174) AND (education_Level == Unknown) AND (income_Category == $40K - $60K),3,NESTED (3 conditions),1,2.0%,-19.0,3.0,4.4%,-0.48,-6.33,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (Avg_Utilization_Ratio > 0.519),2,NESTED (2 conditions),1,2.0%,-16.0,3.0,4.4%,-0.49,-5.33,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (CLIENTNUM <= 721120008),2,NESTED (2 conditions),1,2.0%,-17.0,3.0,4.4%,-0.52,-5.67,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.134) AND (Total_Trans_Amt > 1665),4,NESTED (4 conditions),1,2.0%,-9.0,8.0,11.8%,-0.52,-1.12,❌ AVOID (negative)
+(income_Category == $120K +) AND (Months_on_book > 36),2,NESTED (2 conditions),1,2.0%,-13.0,4.0,5.9%,-0.53,-3.25,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == Less than $40K) AND (marital_Status == Married),3,NESTED (3 conditions),1,2.0%,-16.0,4.0,5.9%,-0.54,-4.00,❌ AVOID (negative)
+(Customer_Age <= 48) AND (Avg_Utilization_Ratio > 0.063) AND (Contacts_Count_12_mon <= 1),3,NESTED (3 conditions),1,2.0%,-22.0,3.0,4.4%,-0.55,-7.33,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == Graduate) AND (income_Category == $80K - $120K),3,NESTED (3 conditions),1,2.0%,-22.0,3.0,4.4%,-0.55,-7.33,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0),2,NESTED (2 conditions),4,8.0%,-4.0,14.8,21.8%,-0.61,-0.27,❌ AVOID (negative)
+(income_Category == Unknown) AND (Avg_Utilization_Ratio <= 0.331),2,NESTED (2 conditions),1,2.0%,-20.0,3.0,4.4%,-0.62,-6.67,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (education_Level == Graduate),2,NESTED (2 conditions),1,2.0%,-20.0,3.0,4.4%,-0.62,-6.67,❌ AVOID (negative)
+(Customer_Age > 48) AND (Avg_Utilization_Ratio > 0.174) AND (CLIENTNUM > 720578058),3,NESTED (3 conditions),1,2.0%,-25.0,3.0,4.4%,-0.63,-8.33,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (education_Level == Graduate) AND (gender == F),3,NESTED (3 conditions),1,2.0%,-25.0,3.0,4.4%,-0.63,-8.33,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == Unknown),2,NESTED (2 conditions),1,2.0%,-21.0,3.0,4.4%,-0.65,-7.00,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $40K - $60K) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.99971),3,NESTED (3 conditions),1,2.0%,-27.0,3.0,4.4%,-0.68,-9.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.138) AND (Avg_Utilization_Ratio <= 0.036) AND (education_Level == Doctorate),3,NESTED (3 conditions),1,2.0%,-28.0,3.0,4.4%,-0.71,-9.33,❌ AVOID (negative)
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749) AND (income_Category == Less than $40K),3,NESTED (3 conditions),1,2.0%,-12.0,7.0,10.3%,-0.71,-1.71,❌ AVOID (negative)
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00031749) AND (income_Category == Less than $40K) AND (Dependent_count > 0),4,NESTED (4 conditions),1,2.0%,-34.0,3.0,4.4%,-0.74,-11.33,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638) AND (income_Category == $80K - $120K),2,NESTED (2 conditions),1,2.0%,-12.0,6.0,8.9%,-0.74,-2.00,❌ AVOID (negative)
+(card_Category == Blue) AND (CLIENTNUM > 711398433) AND (income_Category == $80K - $120K) AND (marital_Status == Single),4,NESTED (4 conditions),1,2.0%,-35.0,3.0,4.4%,-0.76,-11.67,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $120K +) AND (Months_on_book > 36),3,NESTED (3 conditions),1,2.0%,-23.0,4.0,5.9%,-0.77,-5.75,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638) AND (income_Category == $40K - $60K) AND (Avg_Utilization_Ratio <= 0),3,NESTED (3 conditions),1,2.0%,-31.0,3.0,4.4%,-0.78,-10.33,❌ AVOID (negative)
+(Customer_Age > 48) AND (Avg_Utilization_Ratio > 0.174),2,NESTED (2 conditions),1,2.0%,-13.0,6.0,8.9%,-0.80,-2.17,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.137) AND (Contacts_Count_12_mon > 2),3,NESTED (3 conditions),1,2.0%,-32.0,3.0,4.4%,-0.81,-10.67,❌ AVOID (negative)
+(Total_Trans_Ct <= 92) AND (income_Category == $40K - $60K) AND (education_Level == Uneducated),3,NESTED (3 conditions),1,2.0%,-32.0,3.0,4.4%,-0.81,-10.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.094),2,NESTED (2 conditions),1,2.0%,-5.0,16.0,23.6%,-0.82,-0.31,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == High School),2,NESTED (2 conditions),1,2.0%,-14.0,6.0,8.9%,-0.86,-2.33,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (education_Level == High School),2,NESTED (2 conditions),1,2.0%,-28.0,3.0,4.4%,-0.86,-9.33,❌ AVOID (negative)
+(Total_Trans_Ct <= 92) AND (income_Category == $40K - $60K),2,NESTED (2 conditions),1,2.0%,-18.0,5.0,7.4%,-0.93,-3.60,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.065) AND (education_Level == High School),4,NESTED (4 conditions),1,2.0%,-26.0,5.0,7.4%,-0.95,-5.20,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.134) AND (Total_Trans_Amt <= 1665),4,NESTED (4 conditions),1,2.0%,-27.0,5.0,7.4%,-0.98,-5.40,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.99389) AND (income_Category == Less than $40K),3,NESTED (3 conditions),1,2.0%,-40.0,3.0,4.4%,-1.01,-13.33,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $60K - $80K) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.00030516),3,NESTED (3 conditions),1,2.0%,-40.0,3.0,4.4%,-1.01,-13.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.146) AND (income_Category == $40K - $60K),2,NESTED (2 conditions),1,2.0%,-33.0,3.0,4.4%,-1.02,-11.00,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (gender == F),2,NESTED (2 conditions),1,2.0%,-25.0,4.0,5.9%,-1.03,-6.25,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.125) AND (education_Level == Uneducated),2,NESTED (2 conditions),1,2.0%,-25.0,4.0,5.9%,-1.03,-6.25,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio <= 0) AND (education_Level == Uneducated),3,NESTED (3 conditions),1,2.0%,-41.0,3.0,4.4%,-1.03,-13.67,❌ AVOID (negative)
+(education_Level == High School),1,BROAD,1,2.0%,-12.0,6.0,8.9%,-1.05,-2.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.094) AND (income_Category == $80K - $120K),2,NESTED (2 conditions),1,2.0%,-34.0,3.0,4.4%,-1.05,-11.33,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND (education_Level == Graduate),3,NESTED (3 conditions),1,2.0%,-42.0,3.0,4.4%,-1.06,-14.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.138) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-35.0,3.0,4.4%,-1.08,-11.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.174) AND (education_Level == Unknown),2,NESTED (2 conditions),1,2.0%,-21.0,5.0,7.4%,-1.08,-4.20,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.094) AND (Avg_Utilization_Ratio > 0.256) AND (education_Level == High School),4,NESTED (4 conditions),1,2.0%,-37.0,4.0,5.9%,-1.08,-9.25,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == Unknown),2,NESTED (2 conditions),2,4.0%,-26.5,4.0,5.9%,-1.09,-6.62,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $60K - $80K) AND (education_Level == Graduate),3,NESTED (3 conditions),1,2.0%,-44.0,3.0,4.4%,-1.11,-14.67,❌ AVOID (negative)
+(Total_Trans_Ct <= 71) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-27.0,4.0,5.9%,-1.11,-6.75,❌ AVOID (negative)
+(Total_Trans_Ct <= 92) AND (income_Category == $60K - $80K),2,NESTED (2 conditions),1,2.0%,-22.0,5.0,7.4%,-1.13,-4.40,❌ AVOID (negative)
+(income_Category == $60K - $80K) AND (card_Category == Blue),2,NESTED (2 conditions),1,2.0%,-28.0,4.0,5.9%,-1.15,-7.00,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (Avg_Utilization_Ratio <= 0.519),2,NESTED (2 conditions),1,2.0%,-28.0,4.0,5.9%,-1.15,-7.00,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $60K - $80K),2,NESTED (2 conditions),4,8.0%,-20.5,5.5,8.1%,-1.16,-3.73,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (education_Level == Graduate),2,NESTED (2 conditions),3,6.0%,-34.0,3.3,4.9%,-1.17,-10.20,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND (education_Level == Uneducated),3,NESTED (3 conditions),1,2.0%,-35.0,4.0,5.9%,-1.18,-8.75,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.151) AND (Avg_Utilization_Ratio <= 0),2,NESTED (2 conditions),1,2.0%,-29.0,4.0,5.9%,-1.19,-7.25,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == Less than $40K) AND (attrition_Flag == Existing Customer),3,NESTED (3 conditions),1,2.0%,-36.0,4.0,5.9%,-1.21,-9.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.151) AND (Avg_Utilization_Ratio > 0.355) AND (marital_Status == Single),3,NESTED (3 conditions),1,2.0%,-29.0,5.0,7.4%,-1.22,-5.80,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == Less than $40K) AND (marital_Status == Single),3,NESTED (3 conditions),4,8.0%,-44.8,3.2,4.8%,-1.22,-13.77,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.146) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-40.0,3.0,4.4%,-1.23,-13.33,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (card_Category == Blue),2,NESTED (2 conditions),1,2.0%,-30.0,4.0,5.9%,-1.23,-7.50,❌ AVOID (negative)
+(Customer_Age <= 48) AND (Avg_Utilization_Ratio <= 0.063) AND (education_Level == Doctorate),3,NESTED (3 conditions),1,2.0%,-49.0,3.0,4.4%,-1.23,-16.33,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638) AND (income_Category == Less than $40K) AND (attrition_Flag == Attrited Customer),3,NESTED (3 conditions),1,2.0%,-49.0,3.0,4.4%,-1.23,-16.33,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $40K - $60K),2,NESTED (2 conditions),4,8.0%,-25.8,4.8,7.0%,-1.26,-5.42,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (attrition_Flag == Existing Customer),2,NESTED (2 conditions),1,2.0%,-22.0,6.0,8.9%,-1.36,-3.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.094) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-19.0,7.0,10.3%,-1.37,-2.71,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (Months_on_book > 34),3,NESTED (3 conditions),1,2.0%,-55.0,3.0,4.4%,-1.39,-18.33,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (Total_Trans_Amt <= 4797),2,NESTED (2 conditions),1,2.0%,-45.0,3.0,4.4%,-1.39,-15.00,❌ AVOID (negative)
+(income_Category == $40K - $60K),1,BROAD,17,34.0%,-19.7,5.0,7.4%,-1.43,-3.94,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == $80K - $120K) AND (Total_Relationship_Count > 3),3,NESTED (3 conditions),1,2.0%,-44.0,4.0,5.9%,-1.48,-11.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.137),2,NESTED (2 conditions),1,2.0%,-16.0,9.0,13.3%,-1.48,-1.78,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == Uneducated),2,NESTED (2 conditions),1,2.0%,-48.0,3.0,4.4%,-1.48,-16.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.138) AND (income_Category == $40K - $60K),2,NESTED (2 conditions),1,2.0%,-37.0,4.0,5.9%,-1.52,-9.25,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.065),3,NESTED (3 conditions),1,2.0%,-14.0,13.0,19.2%,-1.53,-1.08,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.125) AND (Avg_Utilization_Ratio <= 0),2,NESTED (2 conditions),1,2.0%,-25.0,6.0,8.9%,-1.54,-4.17,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == Graduate) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.00010684),3,NESTED (3 conditions),1,2.0%,-37.0,5.0,7.4%,-1.55,-7.40,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.1) AND (Months_on_book > 31),3,NESTED (3 conditions),1,2.0%,-64.0,3.0,4.4%,-1.61,-21.33,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.18) AND (marital_Status == Married),4,NESTED (4 conditions),1,2.0%,-48.0,5.0,7.4%,-1.74,-9.60,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.134),3,NESTED (3 conditions),1,2.0%,-16.0,13.0,19.2%,-1.75,-1.23,❌ AVOID (negative)
+(card_Category == Blue) AND (CLIENTNUM > 711398433) AND (income_Category == $60K - $80K),3,NESTED (3 conditions),1,2.0%,-70.0,3.0,4.4%,-1.76,-23.33,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-43.0,4.0,5.9%,-1.77,-10.75,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.174) AND (Avg_Utilization_Ratio <= 0),2,NESTED (2 conditions),1,2.0%,-29.0,6.0,8.9%,-1.79,-4.83,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.094) AND (Avg_Utilization_Ratio <= 0) AND (Total_Amt_Chng_Q4_Q1 <= 0.794),3,NESTED (3 conditions),1,2.0%,-71.0,3.0,4.4%,-1.79,-23.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0) AND (income_Category == $40K - $60K),2,NESTED (2 conditions),1,2.0%,-60.0,3.0,4.4%,-1.85,-20.00,❌ AVOID (negative)
+(card_Category == Blue) AND (CLIENTNUM > 711398433) AND (income_Category == $80K - $120K),3,NESTED (3 conditions),1,2.0%,-55.0,4.0,5.9%,-1.85,-13.75,❌ AVOID (negative)
+(education_Level == Graduate) AND (Customer_Age <= 49),2,NESTED (2 conditions),1,2.0%,-37.0,5.0,7.4%,-1.90,-7.40,❌ AVOID (negative)
+(Total_Trans_Ct <= 92) AND (income_Category == Less than $40K),2,NESTED (2 conditions),1,2.0%,-48.0,4.0,5.9%,-1.97,-12.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.094) AND (Avg_Utilization_Ratio > 0.256),3,NESTED (3 conditions),1,2.0%,-30.0,8.0,11.8%,-2.01,-3.75,❌ AVOID (negative)
+(income_Category == $40K - $60K) AND (education_Level == Uneducated),2,NESTED (2 conditions),1,2.0%,-67.0,3.0,4.4%,-2.07,-22.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.094) AND (Avg_Utilization_Ratio <= 0),2,NESTED (2 conditions),1,2.0%,-34.0,6.0,8.9%,-2.10,-5.67,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND (Total_Trans_Ct <= 54),3,NESTED (3 conditions),1,2.0%,-42.0,6.0,8.9%,-2.12,-7.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.151) AND (Avg_Utilization_Ratio > 0.355),2,NESTED (2 conditions),1,2.0%,-23.0,9.0,13.3%,-2.13,-2.56,❌ AVOID (negative)
+(card_Category == Blue) AND (income_Category == Less than $40K),2,NESTED (2 conditions),8,16.0%,-40.4,5.2,7.7%,-2.18,-7.69,❌ AVOID (negative)
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.00553) AND (Avg_Utilization_Ratio > 0.21),2,NESTED (2 conditions),1,2.0%,-43.0,5.0,7.4%,-2.21,-8.60,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.18),3,NESTED (3 conditions),1,2.0%,-44.0,6.0,8.9%,-2.22,-7.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.1),2,NESTED (2 conditions),1,2.0%,-39.0,6.0,8.9%,-2.41,-6.50,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (marital_Status == Married),2,NESTED (2 conditions),1,2.0%,-78.0,3.0,4.4%,-2.41,-26.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.146) AND (Avg_Utilization_Ratio <= 0),2,NESTED (2 conditions),1,2.0%,-34.0,7.0,10.3%,-2.45,-4.86,❌ AVOID (negative)
+(card_Category == Blue) AND (education_Level == Graduate),2,NESTED (2 conditions),2,4.0%,-29.5,8.5,12.5%,-2.58,-3.47,❌ AVOID (negative)
+(card_Category == Blue) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.00031749),2,NESTED (2 conditions),1,2.0%,-38.0,7.0,10.3%,-2.73,-5.43,❌ AVOID (negative)
+(education_Level == Graduate),1,BROAD,1,2.0%,-24.0,8.0,11.8%,-2.79,-3.00,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0.138) AND (Avg_Utilization_Ratio <= 0.036),2,NESTED (2 conditions),1,2.0%,-46.0,6.0,8.9%,-2.84,-7.67,❌ AVOID (negative)
+(income_Category == Less than $40K),1,BROAD,17,34.0%,-32.9,6.2,9.2%,-2.98,-5.27,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0) AND (Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.99389),2,NESTED (2 conditions),1,2.0%,-43.0,7.0,10.3%,-3.09,-6.14,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.151),1,BROAD,1,2.0%,-13.0,17.0,25.1%,-3.21,-0.76,❌ AVOID (negative)
+(income_Category == Less than $40K) AND (card_Category == Blue),2,NESTED (2 conditions),1,2.0%,-45.0,7.0,10.3%,-3.24,-6.43,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0) AND (education_Level == Unknown),2,NESTED (2 conditions),1,2.0%,-79.0,4.0,5.9%,-3.25,-19.75,❌ AVOID (negative)
+(Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.00553),1,BROAD,1,2.0%,-79.0,3.0,4.4%,-3.45,-26.33,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.174),1,BROAD,1,2.0%,-17.0,14.0,20.7%,-3.46,-1.21,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.125),1,BROAD,1,2.0%,-16.0,15.0,22.1%,-3.49,-1.07,❌ AVOID (negative)
+(Customer_Age <= 48) AND (Avg_Utilization_Ratio <= 0.063),2,NESTED (2 conditions),1,2.0%,-39.0,9.0,13.3%,-3.61,-4.33,❌ AVOID (negative)
+(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0),2,NESTED (2 conditions),4,8.0%,-44.5,8.2,12.2%,-3.77,-5.39,❌ AVOID (negative)
+(Total_Trans_Ct <= 71),1,BROAD,1,2.0%,-24.0,12.0,17.7%,-4.19,-2.00,❌ AVOID (negative)
+(Total_Trans_Amt <= 5638),1,BROAD,1,2.0%,-13.0,23.0,33.9%,-4.35,-0.57,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.138),1,BROAD,1,2.0%,-26.0,12.0,17.7%,-4.54,-2.17,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.146),1,BROAD,1,2.0%,-37.0,9.0,13.3%,-4.84,-4.11,❌ AVOID (negative)
+(Customer_Age <= 48),1,BROAD,1,2.0%,-25.0,15.0,22.1%,-5.45,-1.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio > 0.094),1,BROAD,1,2.0%,-25.0,15.0,22.1%,-5.45,-1.67,❌ AVOID (negative)
+(Avg_Utilization_Ratio <= 0),1,BROAD,5,10.0%,-38.6,10.2,15.0%,-5.72,-3.78,❌ AVOID (negative)
+(Total_Trans_Ct <= 92),1,BROAD,1,2.0%,-18.0,22.0,32.5%,-5.76,-0.82,❌ AVOID (negative)
+(card_Category == Blue),1,BROAD,16,32.0%,-19.0,22.4,33.1%,-6.20,-0.85,❌ AVOID (negative)
+(card_Category == Blue) AND (CLIENTNUM > 711398433),2,NESTED (2 conditions),1,2.0%,-55.0,12.0,17.7%,-6.79,-4.58,❌ AVOID (negative)

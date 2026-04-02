@@ -1,0 +1,7 @@
+run,accuracy,features,num_features,feature_set,stability,feature_set_name
+1,64,"['education_Level', 'income_Category']",2,"('education_Level', 'income_Category')",79.0,"education_Level, income_Category"
+11,80,"['Total_Trans_Amt', 'education_Level']",2,"('Total_Trans_Amt', 'education_Level')",44.0,"Total_Trans_Amt, education_Level"
+25,81,"['Total_Relationship_Count', 'attrition_Flag', 'education_Level', 'income_Category', 'marital_Status']",5,"('Total_Relationship_Count', 'attrition_Flag', 'education_Level', 'income_Category', 'marital_Status')",43.6,"Total_Relationship_Count, attrition_Flag, education_Level, income_Category, marital_Status"
+28,69,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')",68.0,"Avg_Utilization_Ratio, education_Level, income_Category"
+29,77,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status']",4,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status')",61.5,"Avg_Utilization_Ratio, education_Level, income_Category, marital_Status"
+36,70,"['card_Category', 'income_Category']",2,"('card_Category', 'income_Category')",56.00000000000001,"card_Category, income_Category"

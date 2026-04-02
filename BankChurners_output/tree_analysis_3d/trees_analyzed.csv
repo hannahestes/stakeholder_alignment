@@ -1,0 +1,656 @@
+run,accuracy,features,num_features,feature_set,raw_output,stability,feature_set_name
+1,57,"['Avg_Utilization_Ratio', 'Customer_Age', 'attrition_Flag', 'card_Category', 'income_Category']",5,"('Avg_Utilization_Ratio', 'Customer_Age', 'attrition_Flag', 'card_Category', 'income_Category')"," #rows  win
+    28   -6    if card_Category == Blue
+     4   18    |  if income_Category == $120K +;
+     7    8    |  if income_Category == $80K - $120K
+     3   39    |  |  if Customer_Age <= 46;
+     4  -14    |  |  if Customer_Age > 46;
+     4  -11    |  if income_Category == $60K - $80K;
+     7  -16    |  if income_Category == Less than $40K
+     4  -10    |  |  if Avg_Utilization_Ratio > 0.296;
+     3  -25    |  |  if Avg_Utilization_Ratio <= 0.296;
+     5  -21    |  if income_Category == $40K - $60K
+     4  -25    |  |  if attrition_Flag == Existing Customer;
+19 5 attrition_Flag, Customer_Age, income_Category, card_Category, Avg_Utilization_Ratio
+65 57
+",37.2,"Avg_Utilization_Ratio, Customer_Age, attrition_Flag, card_Category, income_Category"
+2,64,"['education_Level', 'income_Category', 'marital_Status']",3,"('education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     7   26    if income_Category == $80K - $120K
+     3   18    |  if education_Level == Graduate;
+     7   -3    if income_Category == $60K - $80K
+     4    4    |  if marital_Status == Married;
+     6   -8    if income_Category == Unknown;
+     4  -10    if income_Category == $40K - $60K;
+     4  -25    if income_Category == Less than $40K;
+19 3 education_Level, marital_Status, income_Category
+100 64
+",72.0,"education_Level, income_Category, marital_Status"
+3,64,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')"," #rows  win
+    19   20    if Avg_Utilization_Ratio <= 0.135
+    12   43    |  if Avg_Utilization_Ratio > 0.025
+     5   62    |  |  if income_Category == $80K - $120K;
+     4   15    |  |  if income_Category == Less than $40K;
+     7  -18    |  if Avg_Utilization_Ratio <= 0.025;
+    11  -35    if Avg_Utilization_Ratio > 0.135
+     4  -32    |  if education_Level == Graduate;
+     3  -34    |  if education_Level == Unknown;
+     3  -48    |  if education_Level == High School;
+19 3 education_Level, income_Category, Avg_Utilization_Ratio
+69 64
+",67.33333333333333,"Avg_Utilization_Ratio, education_Level, income_Category"
+4,35,"['Months_on_book', 'Total_Amt_Chng_Q4_Q1', 'Total_Trans_Ct', 'income_Category', 'marital_Status']",5,"('Months_on_book', 'Total_Amt_Chng_Q4_Q1', 'Total_Trans_Ct', 'income_Category', 'marital_Status')"," #rows  win
+     5   64    if Months_on_book > 42
+     3   49    |  if marital_Status == Married;
+    25  -12    if Months_on_book <= 42
+     3   41    |  if Total_Amt_Chng_Q4_Q1 > 0.968;
+    22  -20    |  if Total_Amt_Chng_Q4_Q1 <= 0.968
+    12   -8    |  |  if Total_Trans_Ct > 67
+     3    0    |  |  |  if income_Category == Less than $40K;
+     4  -12    |  |  |  if income_Category == Unknown;
+    10  -34    |  |  if Total_Trans_Ct <= 67
+     4  -15    |  |  |  if Total_Amt_Chng_Q4_Q1 > 0.676;
+     6  -47    |  |  |  if Total_Amt_Chng_Q4_Q1 <= 0.676;
+19 5 marital_Status, income_Category, Months_on_book, Total_Amt_Chng_Q4_Q1, Total_Trans_Ct
+70 35
+",34.0,"Months_on_book, Total_Amt_Chng_Q4_Q1, Total_Trans_Ct, income_Category, marital_Status"
+5,71,"['income_Category', 'marital_Status']",2,"('income_Category', 'marital_Status')"," #rows  win
+     3   56    if income_Category == $120K +;
+     3   22    if income_Category == Unknown;
+     8   15    if income_Category == $60K - $80K;
+     6   -1    if income_Category == $80K - $120K
+     3   35    |  if marital_Status == Married;
+     5  -26    if income_Category == $40K - $60K;
+     5  -43    if income_Category == Less than $40K;
+19 2 marital_Status, income_Category
+66 71
+",71.0,"income_Category, marital_Status"
+6,65,"['Avg_Utilization_Ratio', 'CLIENTNUM', 'Total_Amt_Chng_Q4_Q1', 'attrition_Flag', 'card_Category', 'income_Category', 'marital_Status']",7,"('Avg_Utilization_Ratio', 'CLIENTNUM', 'Total_Amt_Chng_Q4_Q1', 'attrition_Flag', 'card_Category', 'income_Category', 'marital_Status')"," #rows  win
+     3   92    if card_Category == Silver;
+    27  -10    if card_Category == Blue
+     3   56    |  if Total_Amt_Chng_Q4_Q1 <= 0.476;
+    24  -18    |  if Total_Amt_Chng_Q4_Q1 > 0.476
+     9   -3    |  |  if Total_Amt_Chng_Q4_Q1 > 0.868
+     4  -11    |  |  |  if marital_Status == Married
+     3    0    |  |  |  |  if attrition_Flag == Existing Customer;
+     3  -25    |  |  |  if marital_Status == Single;
+    15  -27    |  |  if Total_Amt_Chng_Q4_Q1 <= 0.868
+     8  -19    |  |  |  if Avg_Utilization_Ratio > 0
+     3  -17    |  |  |  |  if income_Category == Less than $40K;
+     7  -37    |  |  |  if Avg_Utilization_Ratio <= 0
+     3  -23    |  |  |  |  if CLIENTNUM > 770766633;
+     4  -47    |  |  |  |  if CLIENTNUM <= 770766633;
+19 7 CLIENTNUM, attrition_Flag, marital_Status, income_Category, card_Category, Total_Amt_Chng_Q4_Q1, Avg_Utilization_Ratio
+64 65
+",35.714285714285715,"Avg_Utilization_Ratio, CLIENTNUM, Total_Amt_Chng_Q4_Q1, attrition_Flag, card_Category, income_Category, marital_Status"
+7,49,"['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'education_Level', 'gender', 'income_Category']",4,"('Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'education_Level', 'gender', 'income_Category')"," #rows  win
+     5   52    if income_Category == $120K +;
+     5   -3    if income_Category == $40K - $60K;
+     8  -10    if income_Category == $60K - $80K
+     3  -18    |  if education_Level == High School;
+     8  -24    if income_Category == Less than $40K
+     5  -12    |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.99967
+     4  -15    |  |  if gender == F;
+     3  -45    |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.99967;
+19 4 gender, education_Level, income_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2
+69 49
+",44.5,"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2, education_Level, gender, income_Category"
+8,64,[],0,()," #rows  win
+     4   34    if income_Category == $120K +;
+     5   31    if income_Category == $80K - $120K;
+     4    0    if income_Category == Unknown;
+     7    0    if income_Category == $60K - $80K;
+     6  -25    if income_Category == $40K - $60K;
+     4  -34    if income_Category == Less than $40K;
+19 1 income_Category
+77 64
+",0.0,(no features)
+9,62,"['attrition_Flag', 'education_Level', 'income_Category']",3,"('attrition_Flag', 'education_Level', 'income_Category')"," #rows  win
+    11   26    if income_Category == $80K - $120K
+     5    0    |  if education_Level == Graduate;
+     4    5    if income_Category == $60K - $80K;
+     6  -25    if income_Category == $40K - $60K;
+     5  -35    if income_Category == Less than $40K
+     3  -20    |  if attrition_Flag == Existing Customer;
+19 3 attrition_Flag, education_Level, income_Category
+73 62
+",58.666666666666664,"attrition_Flag, education_Level, income_Category"
+10,51,"['Avg_Utilization_Ratio', 'card_Category', 'education_Level', 'income_Category']",4,"('Avg_Utilization_Ratio', 'card_Category', 'education_Level', 'income_Category')"," #rows  win
+    22   21    if Avg_Utilization_Ratio > 0
+    12   62    |  if Avg_Utilization_Ratio <= 0.155
+     4   79    |  |  if education_Level == High School
+     3   72    |  |  |  if card_Category == Blue;
+     3   59    |  |  if education_Level == Graduate;
+    10  -28    |  if Avg_Utilization_Ratio > 0.155
+     3  -20    |  |  if income_Category == Less than $40K;
+     8  -59    if Avg_Utilization_Ratio <= 0
+     3  -58    |  if income_Category == Unknown;
+19 4 education_Level, income_Category, card_Category, Avg_Utilization_Ratio
+59 51
+",60.0,"Avg_Utilization_Ratio, card_Category, education_Level, income_Category"
+11,66,"['Avg_Utilization_Ratio', 'Total_Trans_Ct', 'education_Level', 'income_Category']",4,"('Avg_Utilization_Ratio', 'Total_Trans_Ct', 'education_Level', 'income_Category')"," #rows  win
+    14   29    if Total_Trans_Ct > 81
+    10   46    |  if Avg_Utilization_Ratio <= 0.195
+     5   51    |  |  if income_Category == $80K - $120K;
+     4  -11    |  if Avg_Utilization_Ratio > 0.195;
+    16  -25    if Total_Trans_Ct <= 81
+     5    1    |  if income_Category == $80K - $120K;
+     5  -32    |  if income_Category == Less than $40K
+     3  -41    |  |  if education_Level == Graduate;
+     4  -41    |  if income_Category == $40K - $60K;
+19 4 education_Level, income_Category, Total_Trans_Ct, Avg_Utilization_Ratio
+59 66
+",53.5,"Avg_Utilization_Ratio, Total_Trans_Ct, education_Level, income_Category"
+12,67,"['Avg_Utilization_Ratio', 'Total_Trans_Amt', 'education_Level', 'income_Category']",4,"('Avg_Utilization_Ratio', 'Total_Trans_Amt', 'education_Level', 'income_Category')"," #rows  win
+    11   28    if income_Category == $80K - $120K
+     4    1    |  if education_Level == Graduate;
+     4    6    if income_Category == $60K - $80K;
+     7  -16    if income_Category == Less than $40K
+     4   -3    |  if Total_Trans_Amt > 4575;
+     3  -34    |  if Total_Trans_Amt <= 4575;
+     6  -26    if income_Category == $40K - $60K
+     3   -1    |  if Avg_Utilization_Ratio > 0;
+     3  -50    |  if Avg_Utilization_Ratio <= 0;
+19 4 education_Level, income_Category, Total_Trans_Amt, Avg_Utilization_Ratio
+69 67
+",52.5,"Avg_Utilization_Ratio, Total_Trans_Amt, education_Level, income_Category"
+13,63,"['Total_Trans_Amt', 'card_Category', 'education_Level', 'marital_Status']",4,"('Total_Trans_Amt', 'card_Category', 'education_Level', 'marital_Status')"," #rows  win
+     3   78    if card_Category == Silver;
+     5   58    if card_Category == Gold;
+    22  -24    if card_Category == Blue
+     3   45    |  if Total_Trans_Amt <= 1516;
+    19  -35    |  if Total_Trans_Amt > 1516
+     5  -35    |  |  if education_Level == Graduate
+     3  -27    |  |  |  if marital_Status == Married;
+     4  -42    |  |  if education_Level == Uneducated
+     3  -36    |  |  |  if marital_Status == Married;
+19 4 education_Level, marital_Status, card_Category, Total_Trans_Amt
+70 63
+",43.5,"Total_Trans_Amt, card_Category, education_Level, marital_Status"
+14,57,"['Avg_Utilization_Ratio', 'Months_on_book', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'card_Category', 'education_Level', 'income_Category']",6,"('Avg_Utilization_Ratio', 'Months_on_book', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'card_Category', 'education_Level', 'income_Category')"," #rows  win
+    26    8    if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.99544
+    23    2    |  if card_Category == Blue
+    15    8    |  |  if Avg_Utilization_Ratio <= 0.258
+     4   42    |  |  |  if Months_on_book <= 34;
+    11   -4    |  |  |  if Months_on_book > 34
+     5    5    |  |  |  |  if education_Level == Unknown
+     3   24    |  |  |  |  |  if income_Category == $120K +;
+     8   -7    |  |  if Avg_Utilization_Ratio > 0.258;
+     4  -52    if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.99544;
+19 6 education_Level, income_Category, card_Category, Months_on_book, Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1
+62 57
+",42.666666666666664,"Avg_Utilization_Ratio, Months_on_book, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1, card_Category, education_Level, income_Category"
+15,59,"['card_Category', 'education_Level', 'income_Category']",3,"('card_Category', 'education_Level', 'income_Category')"," #rows  win
+     8   54    if card_Category == Silver
+     5   50    |  if education_Level == Graduate;
+    20  -25    if card_Category == Blue
+     5    6    |  if income_Category == $120K +;
+     5  -12    |  if income_Category == $60K - $80K;
+     4  -51    |  if income_Category == $40K - $60K;
+     5  -56    |  if income_Category == Less than $40K;
+19 3 education_Level, income_Category, card_Category
+75 59
+",66.66666666666667,"card_Category, education_Level, income_Category"
+16,31,"['education_Level', 'income_Category', 'marital_Status']",3,"('education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     6   30    if income_Category == $80K - $120K;
+     5   21    if income_Category == $60K - $80K
+     3   63    |  if marital_Status == Single;
+     8   11    if income_Category == $40K - $60K
+     3   21    |  if education_Level == Uneducated;
+     3  -16    if income_Category == Unknown;
+     7  -39    if income_Category == Less than $40K;
+19 3 education_Level, marital_Status, income_Category
+48 31
+",72.0,"education_Level, income_Category, marital_Status"
+17,59,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')"," #rows  win
+    15   20    if Avg_Utilization_Ratio <= 0.141
+    10   46    |  if Avg_Utilization_Ratio > 0
+     4   55    |  |  if education_Level == Graduate;
+     5  -32    |  if Avg_Utilization_Ratio <= 0;
+    15  -20    if Avg_Utilization_Ratio > 0.141
+     8  -29    |  if income_Category == Less than $40K
+     3  -40    |  |  if education_Level == Graduate;
+19 3 education_Level, income_Category, Avg_Utilization_Ratio
+62 59
+",67.33333333333333,"Avg_Utilization_Ratio, education_Level, income_Category"
+18,66,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status']",4,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     8   33    if income_Category == $80K - $120K
+     4   53    |  if marital_Status == Single;
+     3    7    |  if marital_Status == Married;
+     3   27    if income_Category == $60K - $80K;
+     8  -19    if income_Category == Less than $40K
+     3   -4    |  if marital_Status == Single;
+     4  -27    |  if marital_Status == Married
+     3  -31    |  |  if education_Level == Graduate;
+     8  -23    if income_Category == $40K - $60K
+     5   -8    |  if Avg_Utilization_Ratio > 0
+     3   -2    |  |  if education_Level == Uneducated;
+     3  -48    |  if Avg_Utilization_Ratio <= 0;
+19 4 education_Level, marital_Status, income_Category, Avg_Utilization_Ratio
+54 66
+",64.0,"Avg_Utilization_Ratio, education_Level, income_Category, marital_Status"
+19,61,"['CLIENTNUM', 'education_Level', 'income_Category']",3,"('CLIENTNUM', 'education_Level', 'income_Category')"," #rows  win
+     7   54    if income_Category == $80K - $120K;
+     6    0    if income_Category == $60K - $80K
+     3   36    |  if education_Level == Uneducated;
+     6  -11    if income_Category == Unknown
+     3   31    |  if CLIENTNUM > 719594433;
+     3  -55    |  if CLIENTNUM <= 719594433;
+     5  -32    if income_Category == $40K - $60K;
+     5  -39    if income_Category == Less than $40K;
+19 3 CLIENTNUM, education_Level, income_Category
+53 61
+",57.333333333333336,"CLIENTNUM, education_Level, income_Category"
+20,67,"['card_Category', 'education_Level', 'income_Category', 'marital_Status']",4,"('card_Category', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     6    8    if income_Category == $80K - $120K
+     4  -13    |  if card_Category == Blue
+     3  -19    |  |  if marital_Status == Single;
+     8   -1    if income_Category == $60K - $80K
+     3   -8    |  if education_Level == Uneducated;
+     6  -11    if income_Category == $40K - $60K;
+     7  -20    if income_Category == Less than $40K;
+19 4 education_Level, marital_Status, income_Category, card_Category
+81 67
+",63.5,"card_Category, education_Level, income_Category, marital_Status"
+21,53,"['Avg_Utilization_Ratio', 'Months_on_book', 'card_Category', 'education_Level', 'gender', 'marital_Status']",6,"('Avg_Utilization_Ratio', 'Months_on_book', 'card_Category', 'education_Level', 'gender', 'marital_Status')"," #rows  win
+     8   47    if card_Category == Silver
+     5   67    |  if Months_on_book <= 39;
+     3   12    |  if Months_on_book > 39;
+    22  -17    if card_Category == Blue
+    12    1    |  if gender == M
+     4   -1    |  |  if marital_Status == Married
+     3    1    |  |  |  if education_Level == Graduate;
+     5   -3    |  |  if marital_Status == Single;
+    10  -39    |  if gender == F
+     3  -24    |  |  if Avg_Utilization_Ratio > 0.257;
+     7  -46    |  |  if Avg_Utilization_Ratio <= 0.257
+     3  -32    |  |  |  if Months_on_book <= 27;
+     4  -56    |  |  |  if Months_on_book > 27;
+19 6 gender, education_Level, marital_Status, card_Category, Months_on_book, Avg_Utilization_Ratio
+69 53
+",37.0,"Avg_Utilization_Ratio, Months_on_book, card_Category, education_Level, gender, marital_Status"
+22,20,"['Contacts_Count_12_mon', 'education_Level', 'income_Category', 'marital_Status']",4,"('Contacts_Count_12_mon', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     3   68    if income_Category == $120K +;
+    10   11    if income_Category == $80K - $120K
+     5   54    |  if Contacts_Count_12_mon > 3;
+     5  -30    |  if Contacts_Count_12_mon <= 3;
+     5   -6    if income_Category == $60K - $80K
+     3  -24    |  if marital_Status == Married;
+     7  -19    if income_Category == Less than $40K
+     4  -22    |  if education_Level == Unknown
+     3  -26    |  |  if marital_Status == Married;
+     3  -22    if income_Category == Unknown;
+19 4 education_Level, marital_Status, income_Category, Contacts_Count_12_mon
+64 20
+",54.50000000000001,"Contacts_Count_12_mon, education_Level, income_Category, marital_Status"
+23,56,"['CLIENTNUM', 'Total_Amt_Chng_Q4_Q1', 'Total_Relationship_Count', 'education_Level', 'income_Category']",5,"('CLIENTNUM', 'Total_Amt_Chng_Q4_Q1', 'Total_Relationship_Count', 'education_Level', 'income_Category')"," #rows  win
+    14   18    if Total_Amt_Chng_Q4_Q1 > 0.773
+     5   54    |  if Total_Relationship_Count <= 3
+     3   40    |  |  if education_Level == Graduate;
+     9   -1    |  if Total_Relationship_Count > 3
+     3    2    |  |  if income_Category == $60K - $80K;
+     3  -19    |  |  if income_Category == $40K - $60K;
+    16  -16    if Total_Amt_Chng_Q4_Q1 <= 0.773
+     8  -12    |  if education_Level == Graduate
+     5   -6    |  |  if CLIENTNUM <= 719192808;
+     3  -23    |  |  if CLIENTNUM > 719192808;
+     3  -25    |  if education_Level == Unknown;
+19 5 CLIENTNUM, education_Level, income_Category, Total_Relationship_Count, Total_Amt_Chng_Q4_Q1
+62 56
+",36.4,"CLIENTNUM, Total_Amt_Chng_Q4_Q1, Total_Relationship_Count, education_Level, income_Category"
+24,76,"['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'card_Category', 'education_Level', 'income_Category', 'marital_Status']",5,"('Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'card_Category', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     7   74    if card_Category == Silver
+     3   82    |  if education_Level == High School;
+    23  -22    if card_Category == Blue
+    14   -6    |  if marital_Status == Married
+    10    5    |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.0001953
+     5   21    |  |  |  if income_Category == $80K - $120K;
+     4  -37    |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.0001953;
+     6  -57    |  if marital_Status == Single;
+19 5 education_Level, marital_Status, income_Category, card_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1
+63 76
+",52.0,"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1, card_Category, education_Level, income_Category, marital_Status"
+25,46,"['Avg_Utilization_Ratio', 'income_Category', 'marital_Status']",3,"('Avg_Utilization_Ratio', 'income_Category', 'marital_Status')"," #rows  win
+     3   64    if income_Category == $120K +;
+     9    5    if income_Category == $60K - $80K
+     5  -13    |  if marital_Status == Married;
+     3   -2    if income_Category == $40K - $60K;
+    11  -23    if income_Category == Less than $40K
+     8  -13    |  if Avg_Utilization_Ratio > 0;
+     3  -49    |  if Avg_Utilization_Ratio <= 0;
+19 3 marital_Status, income_Category, Avg_Utilization_Ratio
+55 46
+",60.66666666666667,"Avg_Utilization_Ratio, income_Category, marital_Status"
+26,67,"['CLIENTNUM', 'attrition_Flag', 'card_Category', 'income_Category', 'marital_Status']",5,"('CLIENTNUM', 'attrition_Flag', 'card_Category', 'income_Category', 'marital_Status')"," #rows  win
+     4   24    if card_Category == Silver;
+    25   -7    if card_Category == Blue
+     8   -4    |  if income_Category == $80K - $120K
+     5    9    |  |  if marital_Status == Married
+     4   14    |  |  |  if attrition_Flag == Existing Customer;
+     7  -18    |  if income_Category == $40K - $60K
+     4   -2    |  |  if CLIENTNUM > 713417433;
+     3  -39    |  |  if CLIENTNUM <= 713417433;
+     4  -35    |  if income_Category == Less than $40K;
+19 5 CLIENTNUM, attrition_Flag, marital_Status, income_Category, card_Category
+68 67
+",40.8,"CLIENTNUM, attrition_Flag, card_Category, income_Category, marital_Status"
+27,57,"['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'education_Level', 'income_Category', 'marital_Status']",4,"('Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     6   39    if income_Category == $120K +
+     3   61    |  if marital_Status == Married;
+     6   10    if income_Category == $80K - $120K;
+     6    5    if income_Category == $60K - $80K
+     4   16    |  if education_Level == High School;
+     5  -18    if income_Category == $40K - $60K;
+     6  -31    if income_Category == Less than $40K
+     3  -18    |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.99988;
+     3  -43    |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.99988;
+19 4 education_Level, marital_Status, income_Category, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2
+55 57
+",56.49999999999999,"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2, education_Level, income_Category, marital_Status"
+28,69,"['Total_Trans_Amt', 'education_Level', 'income_Category']",3,"('Total_Trans_Amt', 'education_Level', 'income_Category')"," #rows  win
+     9   22    if education_Level == Graduate
+     3   28    |  if income_Category == $120K +;
+     3    4    |  if income_Category == $40K - $60K;
+     6   -4    if education_Level == Unknown
+     3   12    |  if Total_Trans_Amt <= 3230;
+     3  -21    |  if Total_Trans_Amt > 3230;
+     6  -18    if education_Level == Uneducated;
+     5  -25    if education_Level == High School;
+19 3 education_Level, income_Category, Total_Trans_Amt
+66 69
+",56.666666666666664,"Total_Trans_Amt, education_Level, income_Category"
+29,66,"['Months_on_book', 'card_Category', 'education_Level', 'income_Category', 'marital_Status']",5,"('Months_on_book', 'card_Category', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+    14   35    if card_Category == Silver
+     8   41    |  if income_Category == $80K - $120K
+     4   39    |  |  if education_Level == Graduate
+     3   42    |  |  |  if marital_Status == Single;
+    14  -44    if card_Category == Blue
+     6  -21    |  if Months_on_book > 36
+     3  -14    |  |  if income_Category == $120K +;
+     8  -62    |  if Months_on_book <= 36;
+19 5 education_Level, marital_Status, income_Category, card_Category, Months_on_book
+74 66
+",52.800000000000004,"Months_on_book, card_Category, education_Level, income_Category, marital_Status"
+30,53,"['education_Level', 'income_Category', 'marital_Status']",3,"('education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     9   24    if income_Category == $80K - $120K
+     3   67    |  if education_Level == Unknown;
+     4   20    |  if education_Level == Graduate
+     3    4    |  |  if marital_Status == Single;
+     3   23    if income_Category == $120K +;
+     5   13    if income_Category == $60K - $80K;
+     5  -15    if income_Category == $40K - $60K;
+     5  -29    if income_Category == Less than $40K;
+     3  -44    if income_Category == Unknown;
+19 3 education_Level, marital_Status, income_Category
+66 53
+",72.0,"education_Level, income_Category, marital_Status"
+31,65,"['Total_Trans_Amt', 'card_Category', 'education_Level', 'gender', 'income_Category', 'marital_Status']",6,"('Total_Trans_Amt', 'card_Category', 'education_Level', 'gender', 'income_Category', 'marital_Status')"," #rows  win
+     9   28    if income_Category == $80K - $120K
+     3   72    |  if Total_Trans_Amt > 4339;
+     6    6    |  if Total_Trans_Amt <= 4339
+     3   20    |  |  if education_Level == Graduate;
+     3   16    if income_Category == Unknown;
+     5    7    if income_Category == $60K - $80K
+     4  -15    |  if card_Category == Blue
+     3  -20    |  |  if marital_Status == Single;
+     6  -38    if income_Category == $40K - $60K
+     4  -45    |  if gender == F;
+     5  -42    if income_Category == Less than $40K;
+19 6 gender, education_Level, marital_Status, income_Category, card_Category, Total_Trans_Amt
+67 65
+",44.666666666666664,"Total_Trans_Amt, card_Category, education_Level, gender, income_Category, marital_Status"
+32,66,"['attrition_Flag', 'card_Category', 'education_Level', 'income_Category', 'marital_Status']",5,"('attrition_Flag', 'card_Category', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+    14   39    if card_Category == Silver
+     7   61    |  if income_Category == $60K - $80K
+     3   72    |  |  if marital_Status == Single;
+     5   13    |  if income_Category == Less than $40K
+     4   25    |  |  if attrition_Flag == Existing Customer;
+    15  -40    if card_Category == Blue
+     6  -28    |  if education_Level == High School;
+     3  -51    |  if education_Level == Graduate;
+19 5 attrition_Flag, education_Level, marital_Status, income_Category, card_Category
+66 66
+",53.6,"attrition_Flag, card_Category, education_Level, income_Category, marital_Status"
+33,25,"['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'Total_Relationship_Count', 'attrition_Flag', 'income_Category', 'marital_Status']",5,"('Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'Total_Relationship_Count', 'attrition_Flag', 'income_Category', 'marital_Status')"," #rows  win
+     7   51    if income_Category == $80K - $120K
+     4   73    |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 > 0.00011066;
+     3   21    |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1 <= 0.00011066;
+     5    0    if income_Category == Unknown
+     3  -34    |  if marital_Status == Married;
+     4   -5    if income_Category == $60K - $80K
+     3   13    |  if marital_Status == Single;
+     6  -27    if income_Category == $40K - $60K
+     3  -12    |  if Total_Relationship_Count <= 5;
+     3  -42    |  if Total_Relationship_Count > 5;
+     6  -42    if income_Category == Less than $40K
+     5  -51    |  if attrition_Flag == Existing Customer;
+19 5 attrition_Flag, marital_Status, income_Category, Total_Relationship_Count, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1
+63 25
+",33.2,"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1, Total_Relationship_Count, attrition_Flag, income_Category, marital_Status"
+34,69,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status']",4,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+    22   11    if Avg_Utilization_Ratio > 0
+    15   24    |  if Avg_Utilization_Ratio <= 0.256
+     5   35    |  |  if education_Level == Graduate
+     3   47    |  |  |  if income_Category == $80K - $120K;
+     4   24    |  |  if education_Level == High School;
+     7  -16    |  if Avg_Utilization_Ratio > 0.256
+     4  -11    |  |  if marital_Status == Married;
+     3  -24    |  |  if marital_Status == Single;
+     8  -30    if Avg_Utilization_Ratio <= 0
+     3  -24    |  if income_Category == Unknown;
+19 4 education_Level, marital_Status, income_Category, Avg_Utilization_Ratio
+56 69
+",64.0,"Avg_Utilization_Ratio, education_Level, income_Category, marital_Status"
+35,2,"['Customer_Age', 'card_Category', 'education_Level']",3,"('Customer_Age', 'card_Category', 'education_Level')"," #rows  win
+     4   16    if education_Level == Unknown;
+    14  -11    if education_Level == Graduate
+     4    3    |  if card_Category == Silver;
+     9  -26    |  if card_Category == Blue
+     4   -5    |  |  if Customer_Age > 46;
+     5  -43    |  |  if Customer_Age <= 46;
+     6  -20    if education_Level == Uneducated;
+19 3 Customer_Age, education_Level, card_Category
+77 2
+",39.333333333333336,"Customer_Age, card_Category, education_Level"
+36,69,"['attrition_Flag', 'card_Category', 'income_Category', 'marital_Status']",4,"('attrition_Flag', 'card_Category', 'income_Category', 'marital_Status')"," #rows  win
+     9   58    if card_Category == Silver
+     3   76    |  if income_Category == Unknown;
+     3   55    |  if income_Category == $80K - $120K;
+    21  -25    if card_Category == Blue
+     3   -2    |  if income_Category == $120K +;
+     5  -29    |  if income_Category == Less than $40K
+     3  -40    |  |  if marital_Status == Married;
+     3  -31    |  if income_Category == $40K - $60K;
+     5  -34    |  if income_Category == $80K - $120K
+     4  -23    |  |  if attrition_Flag == Existing Customer
+     3  -20    |  |  |  if marital_Status == Single;
+     3  -58    |  if income_Category == $60K - $80K;
+19 4 attrition_Flag, marital_Status, income_Category, card_Category
+73 69
+",48.5,"attrition_Flag, card_Category, income_Category, marital_Status"
+37,31,"['CLIENTNUM', 'card_Category', 'income_Category']",3,"('CLIENTNUM', 'card_Category', 'income_Category')"," #rows  win
+    16   17    if card_Category == Silver
+     4   17    |  if income_Category == $40K - $60K;
+     3   10    |  if income_Category == $60K - $80K;
+     3   -6    |  if income_Category == Less than $40K;
+    12  -25    if card_Category == Blue
+     6  -13    |  if income_Category == $80K - $120K
+     3   18    |  |  if CLIENTNUM <= 714403983;
+     3  -44    |  |  if CLIENTNUM > 714403983;
+19 3 CLIENTNUM, income_Category, card_Category
+80 31
+",45.333333333333336,"CLIENTNUM, card_Category, income_Category"
+38,64,"['Avg_Utilization_Ratio', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'Total_Trans_Ct', 'education_Level', 'income_Category']",5,"('Avg_Utilization_Ratio', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'Total_Trans_Ct', 'education_Level', 'income_Category')"," #rows  win
+     8   34    if Avg_Utilization_Ratio <= 0.085
+     3   91    |  if education_Level == Graduate;
+     3   49    |  if education_Level == High School;
+    22  -12    if Avg_Utilization_Ratio > 0.085
+     6   14    |  if Total_Trans_Ct > 86;
+    16  -22    |  if Total_Trans_Ct <= 86
+     3  -13    |  |  if income_Category == Less than $40K;
+     6  -17    |  |  if income_Category == $80K - $120K
+     3   -8    |  |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.99985;
+     3  -25    |  |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.99985;
+     3  -33    |  |  if income_Category == $40K - $60K;
+19 5 education_Level, income_Category, Total_Trans_Ct, Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2
+66 64
+",44.8,"Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2, Total_Trans_Ct, education_Level, income_Category"
+39,72,"['Avg_Utilization_Ratio', 'Months_on_book', 'education_Level', 'income_Category', 'marital_Status']",5,"('Avg_Utilization_Ratio', 'Months_on_book', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+    26   11    if Months_on_book <= 41
+    14   38    |  if Avg_Utilization_Ratio <= 0.081
+     7   49    |  |  if income_Category == $80K - $120K
+     3   43    |  |  |  if marital_Status == Single;
+    12  -21    |  if Avg_Utilization_Ratio > 0.081
+     4  -13    |  |  if education_Level == Uneducated;
+     3  -33    |  |  if education_Level == Unknown;
+     4  -71    if Months_on_book > 41;
+19 5 education_Level, marital_Status, income_Category, Months_on_book, Avg_Utilization_Ratio
+68 72
+",53.2,"Avg_Utilization_Ratio, Months_on_book, education_Level, income_Category, marital_Status"
+40,51,"['income_Category', 'marital_Status']",2,"('income_Category', 'marital_Status')"," #rows  win
+     5   62    if income_Category == $120K +;
+     6   14    if income_Category == $80K - $120K
+     3   51    |  if marital_Status == Married;
+     6    3    if income_Category == $60K - $80K
+     3   15    |  if marital_Status == Single;
+     4   -9    if income_Category == Unknown;
+     7  -58    if income_Category == Less than $40K;
+19 2 marital_Status, income_Category
+66 51
+",71.0,"income_Category, marital_Status"
+41,69,"['card_Category', 'education_Level', 'income_Category', 'marital_Status']",4,"('card_Category', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     5   40    if card_Category == Gold;
+    11   31    if card_Category == Silver
+     5   60    |  if income_Category == $80K - $120K
+     3   58    |  |  if education_Level == High School;
+    14  -39    if card_Category == Blue
+     8  -48    |  if marital_Status == Single;
+     5  -49    |  if marital_Status == Married;
+19 4 education_Level, marital_Status, income_Category, card_Category
+75 69
+",63.5,"card_Category, education_Level, income_Category, marital_Status"
+42,42,"['Avg_Utilization_Ratio', 'Customer_Age', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'Total_Trans_Ct', 'card_Category', 'education_Level', 'marital_Status']",7,"('Avg_Utilization_Ratio', 'Customer_Age', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'Total_Trans_Ct', 'card_Category', 'education_Level', 'marital_Status')"," #rows  win
+     3   70    if card_Category == Silver;
+    27   -7    if card_Category == Blue
+    22    1    |  if Customer_Age > 39
+    13   16    |  |  if Avg_Utilization_Ratio <= 0.191
+     4   51    |  |  |  if Total_Trans_Ct <= 38
+     3   53    |  |  |  |  if marital_Status == Married;
+     9    0    |  |  |  if Total_Trans_Ct > 38
+     6   10    |  |  |  |  if education_Level == High School
+     4    4    |  |  |  |  |  if marital_Status == Married;
+     9  -19    |  |  if Avg_Utilization_Ratio > 0.191
+     3   -2    |  |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.9998;
+     6  -28    |  |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.9998;
+     5  -49    |  if Customer_Age <= 39
+     3  -47    |  |  if marital_Status == Single;
+19 7 Customer_Age, education_Level, marital_Status, card_Category, Total_Trans_Ct, Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2
+68 42
+",33.42857142857143,"Avg_Utilization_Ratio, Customer_Age, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2, Total_Trans_Ct, card_Category, education_Level, marital_Status"
+43,74,"['Avg_Utilization_Ratio', 'card_Category', 'education_Level', 'income_Category']",4,"('Avg_Utilization_Ratio', 'card_Category', 'education_Level', 'income_Category')"," #rows  win
+    19   21    if Avg_Utilization_Ratio > 0
+    10   54    |  if Avg_Utilization_Ratio <= 0.175
+     6   67    |  |  if income_Category == $80K - $120K
+     3   85    |  |  |  if Avg_Utilization_Ratio <= 0.09;
+     3   49    |  |  |  if Avg_Utilization_Ratio > 0.09;
+     9  -14    |  if Avg_Utilization_Ratio > 0.175
+     3    5    |  |  if education_Level == Graduate;
+    11  -37    if Avg_Utilization_Ratio <= 0
+     9  -48    |  if card_Category == Blue
+     3  -29    |  |  if education_Level == Graduate;
+     3  -56    |  |  if education_Level == Post-Graduate;
+19 4 education_Level, income_Category, card_Category, Avg_Utilization_Ratio
+65 74
+",60.0,"Avg_Utilization_Ratio, card_Category, education_Level, income_Category"
+44,13,"['Months_Inactive_12_mon', 'income_Category', 'marital_Status']",3,"('Months_Inactive_12_mon', 'income_Category', 'marital_Status')"," #rows  win
+    11   38    if income_Category == $80K - $120K
+     4   77    |  if Months_Inactive_12_mon <= 1;
+     7   15    |  if Months_Inactive_12_mon > 1;
+     5   -6    if income_Category == $60K - $80K
+     3  -29    |  if marital_Status == Single;
+     5  -28    if income_Category == $40K - $60K;
+     3  -34    if income_Category == Less than $40K;
+     5  -41    if income_Category == Unknown;
+19 3 marital_Status, income_Category, Months_Inactive_12_mon
+71 13
+",48.0,"Months_Inactive_12_mon, income_Category, marital_Status"
+45,66,"['Avg_Utilization_Ratio', 'education_Level']",2,"('Avg_Utilization_Ratio', 'education_Level')"," #rows  win
+    19   17    if Avg_Utilization_Ratio <= 0.165
+     4   61    |  if education_Level == College;
+     3   18    |  if education_Level == Graduate;
+     4   14    |  if education_Level == Uneducated;
+     3  -26    |  if education_Level == High School;
+    11  -30    if Avg_Utilization_Ratio > 0.165
+     3  -18    |  if education_Level == High School;
+     4  -33    |  if education_Level == Graduate;
+19 2 education_Level, Avg_Utilization_Ratio
+50 66
+",56.99999999999999,"Avg_Utilization_Ratio, education_Level"
+46,69,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')"," #rows  win
+    21   19    if Avg_Utilization_Ratio > 0
+     4   81    |  if Avg_Utilization_Ratio <= 0.071;
+    17    4    |  if Avg_Utilization_Ratio > 0.071
+     3   27    |  |  if income_Category == $60K - $80K;
+     4   11    |  |  if income_Category == $80K - $120K;
+     3    7    |  |  if income_Category == Unknown;
+     3  -14    |  |  if income_Category == Less than $40K;
+     3  -25    |  |  if income_Category == $40K - $60K;
+     9  -45    if Avg_Utilization_Ratio <= 0
+     3  -57    |  if education_Level == Unknown;
+19 3 education_Level, income_Category, Avg_Utilization_Ratio
+51 69
+",67.33333333333333,"Avg_Utilization_Ratio, education_Level, income_Category"
+47,67,"['Avg_Utilization_Ratio', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'income_Category']",3,"('Avg_Utilization_Ratio', 'Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2', 'income_Category')"," #rows  win
+    18   17    if Avg_Utilization_Ratio > 0
+     7   54    |  if Avg_Utilization_Ratio <= 0.187
+     4   74    |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 <= 0.9998;
+     3   28    |  |  if Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2 > 0.9998;
+    11   -7    |  if Avg_Utilization_Ratio > 0.187
+     3   -1    |  |  if income_Category == Unknown;
+     3  -17    |  |  if income_Category == Less than $40K;
+    12  -25    if Avg_Utilization_Ratio <= 0
+     3  -25    |  if income_Category == Unknown;
+19 3 income_Category, Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2
+71 67
+",46.0,"Avg_Utilization_Ratio, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2, income_Category"
+48,61,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status']",4,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category', 'marital_Status')"," #rows  win
+     6   51    if income_Category == $120K +;
+     8   24    if income_Category == $80K - $120K
+     4   62    |  if Avg_Utilization_Ratio <= 0.074;
+     4  -14    |  if Avg_Utilization_Ratio > 0.074;
+     4  -11    if income_Category == $60K - $80K
+     3    1    |  if marital_Status == Married;
+     5  -30    if income_Category == $40K - $60K
+     3  -17    |  if education_Level == Graduate;
+     6  -42    if income_Category == Less than $40K
+     3  -27    |  if Avg_Utilization_Ratio > 0;
+     3  -58    |  if Avg_Utilization_Ratio <= 0;
+19 4 education_Level, marital_Status, income_Category, Avg_Utilization_Ratio
+67 61
+",64.0,"Avg_Utilization_Ratio, education_Level, income_Category, marital_Status"
+49,69,"['Total_Trans_Ct', 'education_Level', 'income_Category']",3,"('Total_Trans_Ct', 'education_Level', 'income_Category')"," #rows  win
+    21   25    if Total_Trans_Ct > 68
+     6   70    |  if income_Category == $80K - $120K
+     3   86    |  |  if education_Level == Graduate;
+     3   59    |  if income_Category == Unknown;
+     3    3    |  if income_Category == $40K - $60K;
+     3   -2    |  if income_Category == $120K +;
+     5  -31    |  if income_Category == Less than $40K
+     3  -22    |  |  if education_Level == Graduate;
+     9  -60    if Total_Trans_Ct <= 68
+     6  -44    |  if Total_Trans_Ct > 45;
+     3  -93    |  if Total_Trans_Ct <= 45;
+19 3 education_Level, income_Category, Total_Trans_Ct
+70 69
+",57.99999999999999,"Total_Trans_Ct, education_Level, income_Category"
+50,50,"['Total_Trans_Ct', 'education_Level', 'income_Category']",3,"('Total_Trans_Ct', 'education_Level', 'income_Category')"," #rows  win
+    14   33    if Total_Trans_Ct > 92
+     3   54    |  if education_Level == Uneducated;
+     4    9    |  if education_Level == Post-Graduate;
+     3    0    |  if education_Level == High School;
+    16  -29    if Total_Trans_Ct <= 92
+     3  -30    |  if income_Category == Less than $40K;
+     7  -32    |  if income_Category == Unknown;
+     3  -47    |  if income_Category == $40K - $60K;
+19 3 education_Level, income_Category, Total_Trans_Ct
+69 50
+",57.99999999999999,"Total_Trans_Ct, education_Level, income_Category"

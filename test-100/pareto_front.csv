@@ -1,0 +1,4 @@
+run_num,features,complexity,win,on_knee
+32,"education_Level, marital_Status, income_Category, card_Category, Avg_Utilization_Ratio",5,94,False
+18,"education_Level, marital_Status, income_Category, Avg_Utilization_Ratio",4,81,False
+75,income_Category,1,70,True

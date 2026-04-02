@@ -1,0 +1,293 @@
+rank,rule,recommendation,impact,coverage_%,cumulative_impact,suggested_tier
+136,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,⭐ EASY WIN,10.00,23.6%,10.00,Tier 1: Quick Wins
+11,(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0....,⭐ EASY WIN,8.95,20.6%,18.95,Tier 1: Quick Wins
+247,(Avg_Utilization_Ratio <= 0.186) AND (Avg_Utilization_Ratio ...,⭐ EASY WIN,7.56,19.2%,26.51,Tier 1: Quick Wins
+170,(Avg_Utilization_Ratio <= 0.223) AND (Avg_Utilization_Ratio ...,⭐ EASY WIN,7.46,13.3%,33.97,Tier 1: Quick Wins
+135,(Avg_Utilization_Ratio <= 0.187),⭐ EASY WIN,5.76,32.4%,39.73,Tier 1: Quick Wins
+213,(Avg_Utilization_Ratio <= 0.111) AND (Avg_Utilization_Ratio ...,⭐ EASY WIN,5.58,8.8%,45.31,Tier 1: Quick Wins
+10,(Avg_Utilization_Ratio > 0),⭐ EASY WIN,5.49,31.0%,50.80,Tier 1: Quick Wins
+191,(Avg_Utilization_Ratio <= 0.115),⭐ EASY WIN,5.49,20.6%,56.29,Tier 1: Quick Wins
+25,(Avg_Utilization_Ratio <= 0.098),⭐ EASY WIN,5.48,19.2%,61.77,Tier 1: Quick Wins
+1,(Total_Trans_Amt > 8192),⭐ EASY WIN,5.06,8.8%,66.83,Tier 1: Quick Wins
+26,(Avg_Utilization_Ratio <= 0.098) AND (Contacts_Count_12_mon ...,✓ GOOD,4.97,8.8%,71.80,Tier 2: Good Rules
+161,(card_Category == Silver) AND (Naive_Bayes_Classifier_Attrit...,✓ GOOD,4.94,5.9%,76.74,Tier 2: Good Rules
+84,(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio...,✓ GOOD,4.94,7.4%,81.68,Tier 2: Good Rules
+45,(Total_Trans_Amt > 6826),✓ GOOD,4.88,11.8%,86.56,Tier 2: Good Rules
+183,(Avg_Utilization_Ratio <= 0.165) AND (income_Category == $80...,✓ GOOD,4.65,11.8%,91.21,Tier 2: Good Rules
+54,(education_Level == Doctorate) AND (CLIENTNUM <= 714754533),✓ GOOD,4.59,5.9%,95.80,Tier 2: Good Rules
+182,(Avg_Utilization_Ratio <= 0.165),✓ GOOD,4.58,22.1%,100.38,Tier 2: Good Rules
+101,(income_Category == $80K - $120K) AND (Naive_Bayes_Classifie...,✓ GOOD,4.42,5.9%,104.80,Tier 2: Good Rules
+288,(card_Category == Silver) AND (Avg_Utilization_Ratio > 0.05),✓ GOOD,4.42,5.9%,109.22,Tier 2: Good Rules
+171,(Avg_Utilization_Ratio <= 0.223) AND (Avg_Utilization_Ratio ...,✓ GOOD,4.42,5.9%,113.64,Tier 2: Good Rules
+246,(Avg_Utilization_Ratio <= 0.186),✓ GOOD,4.36,29.5%,118.00,Tier 2: Good Rules
+13,(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0....,✓ GOOD,4.27,10.3%,122.27,Tier 2: Good Rules
+249,(Avg_Utilization_Ratio <= 0.186) AND (Avg_Utilization_Ratio ...,✓ GOOD,4.22,14.7%,126.49,Tier 2: Good Rules
+53,(education_Level == Doctorate),✓ GOOD,4.19,11.8%,130.68,Tier 2: Good Rules
+137,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,✓ GOOD,4.14,7.4%,134.82,Tier 2: Good Rules
+184,(Avg_Utilization_Ratio <= 0.165) AND (income_Category == $80...,✓ GOOD,4.01,5.9%,138.83,Tier 2: Good Rules
+278,(Total_Trans_Amt > 4724),✓ GOOD,4.01,8.8%,142.84,Tier 2: Good Rules
+192,(Avg_Utilization_Ratio <= 0.115) AND (education_Level == Une...,✓ GOOD,3.95,5.9%,146.79,Tier 2: Good Rules
+34,(Total_Trans_Amt <= 2748),✓ GOOD,3.71,22.1%,150.50,Tier 2: Good Rules
+212,(Avg_Utilization_Ratio <= 0.111),✓ GOOD,3.59,19.2%,154.09,Tier 2: Good Rules
+263,(marital_Status == Married) AND (Avg_Utilization_Ratio <= 0....,✓ GOOD,3.58,8.8%,157.67,Tier 2: Good Rules
+75,(Total_Trans_Amt > 7730),✓ GOOD,3.49,8.8%,161.16,Tier 2: Good Rules
+248,(Avg_Utilization_Ratio <= 0.186) AND (Avg_Utilization_Ratio ...,✓ GOOD,3.44,4.4%,164.60,Tier 2: Good Rules
+2,(Total_Trans_Amt > 8192) AND (education_Level == Graduate),✓ GOOD,3.40,4.4%,168.00,Tier 2: Good Rules
+87,(income_Category == $80K - $120K) AND (Total_Trans_Amt > 251...,✓ GOOD,3.37,5.9%,171.37,Tier 2: Good Rules
+169,(Avg_Utilization_Ratio <= 0.223),✓ GOOD,3.31,28.0%,174.68,Tier 2: Good Rules
+123,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,✓ GOOD,3.20,14.7%,177.88,Tier 2: Good Rules
+93,(income_Category == $80K - $120K) AND (Total_Trans_Amt > 269...,✓ GOOD,3.14,4.4%,181.02,Tier 2: Good Rules
+85,(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio...,✓ GOOD,3.05,4.4%,184.07,Tier 2: Good Rules
+172,(Avg_Utilization_Ratio <= 0.223) AND (Avg_Utilization_Ratio ...,✓ GOOD,3.05,7.4%,187.12,Tier 2: Good Rules
+262,(marital_Status == Married) AND (Avg_Utilization_Ratio <= 0....,✓ GOOD,3.04,16.2%,190.16,Tier 2: Good Rules
+207,(income_Category == $80K - $120K) AND (Months_on_book <= 36),✓ GOOD,3.01,4.4%,193.17,Tier 2: Good Rules
+46,(Total_Trans_Amt > 6826) AND (income_Category == $40K - $60K...,✓ GOOD,2.97,5.9%,196.14,Tier 2: Good Rules
+35,(Total_Trans_Amt <= 2748) AND (income_Category == $80K - $12...,✓ GOOD,2.85,5.9%,198.99,Tier 2: Good Rules
+271,(Avg_Utilization_Ratio <= 0.105),✓ GOOD,2.79,17.7%,201.78,Tier 2: Good Rules
+201,(income_Category == $120K +) AND (Dependent_count > 3),✓ GOOD,2.75,4.4%,204.53,Tier 2: Good Rules
+138,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,✓ GOOD,2.73,5.9%,207.26,Tier 2: Good Rules
+130,(income_Category == $60K - $80K) AND (Avg_Utilization_Ratio ...,✓ GOOD,2.62,8.8%,209.88,Tier 2: Good Rules
+146,(Avg_Utilization_Ratio <= 0.137),✓ GOOD,2.62,22.1%,212.50,Tier 2: Good Rules
+147,(Avg_Utilization_Ratio <= 0.137) AND (income_Category == $12...,✓ GOOD,2.62,4.4%,215.12,Tier 2: Good Rules
+20,(income_Category == $80K - $120K) AND (card_Category == Blue...,✓ GOOD,2.62,14.7%,217.74,Tier 2: Good Rules
+21,(income_Category == $80K - $120K) AND (card_Category == Blue...,✓ GOOD,2.56,5.9%,220.30,Tier 2: Good Rules
+113,(income_Category == $80K - $120K) AND (Total_Amt_Chng_Q4_Q1 ...,✓ GOOD,2.53,4.4%,222.83,Tier 2: Good Rules
+193,(Avg_Utilization_Ratio <= 0.115) AND (education_Level == Hig...,✓ GOOD,2.49,4.4%,225.32,Tier 2: Good Rules
+12,(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio <= 0....,✓ GOOD,2.49,4.4%,227.81,Tier 2: Good Rules
+62,(income_Category == $80K - $120K) AND (education_Level == Hi...,✓ GOOD,2.44,4.4%,230.25,Tier 2: Good Rules
+272,(Avg_Utilization_Ratio <= 0.105) AND (income_Category == $12...,✓ GOOD,2.31,4.4%,232.56,Tier 2: Good Rules
+139,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,✓ GOOD,2.22,4.4%,234.78,Tier 2: Good Rules
+18,(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio...,✓ GOOD,2.14,4.4%,236.92,Tier 2: Good Rules
+156,(card_Category == Blue) AND (CLIENTNUM > 789218433),⚠️ RARE,1.92,4.4%,238.84,Tier 4: Rare
+264,(marital_Status == Married) AND (Avg_Utilization_Ratio <= 0....,⚠️ RARE,1.88,4.4%,240.72,Tier 4: Rare
+289,(card_Category == Silver) AND (Avg_Utilization_Ratio <= 0.05...,⚠️ RARE,1.83,4.4%,242.55,Tier 4: Rare
+68,(card_Category == Blue) AND (Dependent_count > 1) AND (Custo...,⚠️ RARE,1.70,4.4%,244.25,Tier 4: Rare
+78,(Total_Trans_Amt <= 7730) AND (income_Category == $60K - $80...,⚠️ RARE,1.66,4.4%,245.91,Tier 4: Rare
+63,(income_Category == $80K - $120K) AND (Total_Trans_Ct <= 69),⚠️ RARE,1.63,5.9%,247.54,Tier 4: Rare
+36,(Total_Trans_Amt <= 2748) AND (income_Category == $120K +),⚠️ RARE,1.53,4.4%,249.07,Tier 4: Rare
+227,(card_Category == Silver) AND (income_Category == $40K - $60...,⚠️ RARE,1.40,4.4%,250.47,Tier 4: Rare
+103,(income_Category == $80K - $120K) AND (Naive_Bayes_Classifie...,⚠️ RARE,1.40,5.9%,251.87,Tier 4: Rare
+208,(income_Category == $80K - $120K) AND (Months_on_book > 36),⚠️ RARE,1.34,5.9%,253.21,Tier 4: Rare
+261,(marital_Status == Married),⚠️ RARE,1.24,25.1%,254.45,Tier 4: Rare
+42,(card_Category == Blue) AND (education_Level == Post-Graduat...,⚠️ RARE,1.22,4.4%,255.67,Tier 4: Rare
+110,(card_Category == Blue) AND (income_Category == $60K - $80K)...,⚠️ RARE,1.22,4.4%,256.89,Tier 4: Rare
+221,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,⚠️ RARE,1.22,4.4%,258.11,Tier 4: Rare
+240,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,⚠️ RARE,1.18,4.4%,259.29,Tier 4: Rare
+164,(card_Category == Blue) AND (CLIENTNUM <= 717788958) AND (ed...,⚠️ RARE,1.13,4.4%,260.42,Tier 4: Rare
+77,(Total_Trans_Amt <= 7730) AND (income_Category == $60K - $80...,⚠️ RARE,1.13,8.8%,261.55,Tier 4: Rare
+58,(education_Level == Uneducated) AND (marital_Status == Marri...,⚠️ RARE,1.13,4.4%,262.68,Tier 4: Rare
+250,(Avg_Utilization_Ratio <= 0.186) AND (Avg_Utilization_Ratio ...,⚠️ RARE,1.13,4.4%,263.81,Tier 4: Rare
+124,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,⚠️ RARE,1.13,4.4%,264.94,Tier 4: Rare
+8,(income_Category == $80K - $120K) AND (education_Level == Gr...,⚠️ RARE,1.00,4.4%,265.94,Tier 4: Rare
+203,(income_Category == $120K +) AND (Dependent_count <= 3) AND ...,⚠️ RARE,1.00,4.4%,266.94,Tier 4: Rare
+117,(card_Category == Blue) AND (CLIENTNUM > 717381183) AND (CLI...,⚠️ RARE,0.93,5.9%,267.87,Tier 4: Rare
+179,(income_Category == Unknown) AND (education_Level == Graduat...,⚠️ RARE,0.87,4.4%,268.74,Tier 4: Rare
+234,(income_Category == $80K - $120K) AND (marital_Status == Sin...,⚠️ RARE,0.87,4.4%,269.61,Tier 4: Rare
+129,(income_Category == $80K - $120K) AND (education_Level == Un...,⚠️ RARE,0.83,4.4%,270.44,Tier 4: Rare
+67,(card_Category == Blue) AND (Dependent_count > 1),⚠️ RARE,0.83,28.0%,271.27,Tier 4: Rare
+286,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio <= 0) A...,⚠️ RARE,0.74,4.4%,272.01,Tier 4: Rare
+235,(income_Category == $80K - $120K) AND (marital_Status == Mar...,⚠️ RARE,0.70,8.8%,272.71,Tier 4: Rare
+162,(card_Category == Silver) AND (Naive_Bayes_Classifier_Attrit...,⚠️ RARE,0.70,5.9%,273.41,Tier 4: Rare
+23,(income_Category == $80K - $120K) AND (card_Category == Blue...,⚠️ RARE,0.65,4.4%,274.06,Tier 4: Rare
+185,(Avg_Utilization_Ratio <= 0.165) AND (income_Category == $80...,⚠️ RARE,0.64,5.9%,274.70,Tier 4: Rare
+282,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio > 0) AN...,⚠️ RARE,0.61,4.4%,275.31,Tier 4: Rare
+236,(income_Category == $80K - $120K) AND (marital_Status == Mar...,⚠️ RARE,0.58,5.9%,275.89,Tier 4: Rare
+281,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio > 0) AN...,⚠️ RARE,0.52,5.9%,276.41,Tier 4: Rare
+27,(Avg_Utilization_Ratio <= 0.098) AND (Contacts_Count_12_mon ...,⚠️ RARE,0.51,10.3%,276.92,Tier 4: Rare
+256,(income_Category == $80K - $120K) AND (education_Level == Co...,⚠️ RARE,0.44,4.4%,277.36,Tier 4: Rare
+202,(income_Category == $120K +) AND (Dependent_count <= 3),⚠️ RARE,0.44,8.8%,277.80,Tier 4: Rare
+229,(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0.118)...,⚠️ RARE,0.41,5.9%,278.21,Tier 4: Rare
+257,(income_Category == $80K - $120K) AND (education_Level == Un...,⚠️ RARE,0.39,4.4%,278.60,Tier 4: Rare
+95,(income_Category == $80K - $120K) AND (Total_Trans_Amt <= 26...,⚠️ RARE,0.39,4.4%,278.99,Tier 4: Rare
+102,(income_Category == $80K - $120K) AND (Naive_Bayes_Classifie...,⚠️ RARE,0.35,11.8%,279.34,Tier 4: Rare
+90,(income_Category == $60K - $80K) AND (attrition_Flag == Exis...,⚠️ RARE,0.35,4.4%,279.69,Tier 4: Rare
+222,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,⚠️ RARE,0.31,4.4%,280.00,Tier 4: Rare
+4,(Total_Trans_Amt <= 8192) AND (income_Category == $80K - $12...,⚠️ RARE,0.31,10.3%,280.31,Tier 4: Rare
+237,(income_Category == $80K - $120K) AND (marital_Status == Mar...,⚠️ RARE,0.26,4.4%,280.57,Tier 4: Rare
+163,(card_Category == Blue) AND (CLIENTNUM <= 717788958),⚠️ RARE,0.26,13.3%,280.83,Tier 4: Rare
+97,(income_Category == $60K - $80K) AND (card_Category == Blue)...,⚠️ RARE,0.23,5.9%,281.06,Tier 4: Rare
+194,(Avg_Utilization_Ratio <= 0.115) AND (education_Level == Gra...,⚠️ RARE,0.23,5.9%,281.29,Tier 4: Rare
+70,(card_Category == Blue) AND (Dependent_count > 1) AND (Custo...,⚠️ RARE,0.22,4.4%,281.51,Tier 4: Rare
+109,(card_Category == Blue) AND (income_Category == $80K - $120K...,⚠️ RARE,0.17,4.4%,281.68,Tier 4: Rare
+16,(Avg_Utilization_Ratio <= 0) AND (Customer_Age <= 44),⚠️ RARE,0.17,5.9%,281.85,Tier 4: Rare
+5,(Total_Trans_Amt <= 8192) AND (income_Category == $40K - $60...,⚠️ RARE,0.13,4.4%,281.98,Tier 4: Rare
+86,(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio...,⚠️ RARE,0.12,5.9%,282.10,Tier 4: Rare
+133,(income_Category == Less than $40K) AND (Total_Amt_Chng_Q4_Q...,⚠️ RARE,0.04,4.4%,282.14,Tier 4: Rare
+290,(card_Category == Blue) AND (income_Category == $120K +),⚠️ RARE,0.00,8.8%,282.14,Tier 4: Rare
+209,(card_Category == Blue) AND (education_Level == Uneducated),⚠️ RARE,0.00,8.8%,282.14,Tier 4: Rare
+56,(education_Level == Unknown),⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+57,(education_Level == Uneducated),⚠️ RARE,0.00,10.3%,282.14,Tier 4: Rare
+283,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio > 0) AN...,⚠️ RARE,0.00,4.4%,282.14,Tier 4: Rare
+64,(income_Category == $80K - $120K) AND (Total_Trans_Ct > 69),⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+125,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+65,(income_Category == $60K - $80K) AND (card_Category == Silve...,⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+150,(Avg_Utilization_Ratio <= 0.137) AND (income_Category == $60...,⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+22,(income_Category == $80K - $120K) AND (card_Category == Blue...,⚠️ RARE,0.00,8.8%,282.14,Tier 4: Rare
+19,(income_Category == $80K - $120K) AND (Avg_Utilization_Ratio...,⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+72,(card_Category == Blue) AND (Dependent_count > 1) AND (Custo...,⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+280,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio > 0),⚠️ RARE,0.00,19.2%,282.14,Tier 4: Rare
+108,(card_Category == Blue) AND (income_Category == $80K - $120K...,⚠️ RARE,0.00,10.3%,282.14,Tier 4: Rare
+275,(Avg_Utilization_Ratio > 0.105) AND (education_Level == Coll...,⚠️ RARE,0.00,5.9%,282.14,Tier 4: Rare
+30,(Avg_Utilization_Ratio > 0.098) AND (Avg_Utilization_Ratio <...,⚠️ RARE,0.00,4.4%,282.14,Tier 4: Rare
+98,(income_Category == $60K - $80K) AND (card_Category == Blue)...,❌ AVOID (negative),-0.04,4.4%,282.10,❌ Skip
+132,(income_Category == Less than $40K) AND (Total_Amt_Chng_Q4_Q...,❌ AVOID (negative),-0.07,7.4%,282.03,❌ Skip
+148,(Avg_Utilization_Ratio <= 0.137) AND (income_Category == $40...,❌ AVOID (negative),-0.09,4.4%,281.94,❌ Skip
+215,(Avg_Utilization_Ratio <= 0.111) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-0.09,4.4%,281.85,❌ Skip
+218,(Avg_Utilization_Ratio > 0.111) AND (Avg_Utilization_Ratio <...,❌ AVOID (negative),-0.12,11.8%,281.73,❌ Skip
+270,(marital_Status == Single) AND (income_Category == $40K - $6...,❌ AVOID (negative),-0.13,4.4%,281.60,❌ Skip
+88,(income_Category == $80K - $120K) AND (Total_Trans_Amt <= 25...,❌ AVOID (negative),-0.15,7.4%,281.45,❌ Skip
+242,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-0.17,5.9%,281.28,❌ Skip
+219,(Avg_Utilization_Ratio > 0.111) AND (Avg_Utilization_Ratio <...,❌ AVOID (negative),-0.17,4.4%,281.11,❌ Skip
+284,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio > 0) AN...,❌ AVOID (negative),-0.17,5.9%,280.94,❌ Skip
+197,(Avg_Utilization_Ratio > 0.115) AND (Avg_Utilization_Ratio <...,❌ AVOID (negative),-0.17,4.4%,280.77,❌ Skip
+205,(income_Category == $60K - $80K) AND (CLIENTNUM > 715026258),❌ AVOID (negative),-0.22,4.4%,280.55,❌ Skip
+91,(income_Category == Less than $40K) AND (Avg_Utilization_Rat...,❌ AVOID (negative),-0.26,4.4%,280.29,❌ Skip
+89,(income_Category == $60K - $80K) AND (attrition_Flag == Exis...,❌ AVOID (negative),-0.26,8.8%,280.03,❌ Skip
+51,(Total_Trans_Amt <= 6826) AND (income_Category == $40K - $60...,❌ AVOID (negative),-0.31,4.4%,279.72,❌ Skip
+177,(Avg_Utilization_Ratio > 0.223) AND (education_Level == Grad...,❌ AVOID (negative),-0.31,4.4%,279.41,❌ Skip
+106,(income_Category == $40K - $60K) AND (Total_Trans_Ct > 66),❌ AVOID (negative),-0.31,4.4%,279.10,❌ Skip
+80,(Total_Trans_Amt <= 7730) AND (income_Category == $40K - $60...,❌ AVOID (negative),-0.31,4.4%,278.79,❌ Skip
+43,(card_Category == Blue) AND (education_Level == Unknown),❌ AVOID (negative),-0.31,10.3%,278.48,❌ Skip
+268,(marital_Status == Divorced),❌ AVOID (negative),-0.31,4.4%,278.17,❌ Skip
+55,(education_Level == Doctorate) AND (CLIENTNUM > 714754533),❌ AVOID (negative),-0.35,5.9%,277.82,❌ Skip
+127,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-0.35,4.4%,277.47,❌ Skip
+265,(marital_Status == Married) AND (Avg_Utilization_Ratio <= 0....,❌ AVOID (negative),-0.36,7.4%,277.11,❌ Skip
+243,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-0.39,4.4%,276.72,❌ Skip
+140,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-0.39,4.4%,276.33,❌ Skip
+39,(Total_Trans_Amt > 2748) AND (income_Category == $40K - $60K...,❌ AVOID (negative),-0.39,4.4%,275.94,❌ Skip
+277,(Avg_Utilization_Ratio > 0.105) AND (education_Level == Unkn...,❌ AVOID (negative),-0.39,4.4%,275.55,❌ Skip
+232,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0.118) ...,❌ AVOID (negative),-0.41,5.9%,275.14,❌ Skip
+276,(Avg_Utilization_Ratio > 0.105) AND (education_Level == High...,❌ AVOID (negative),-0.44,8.8%,274.70,❌ Skip
+71,(card_Category == Blue) AND (Dependent_count > 1) AND (Custo...,❌ AVOID (negative),-0.44,7.4%,274.26,❌ Skip
+180,(income_Category == $60K - $80K) AND (card_Category == Blue)...,❌ AVOID (negative),-0.47,5.9%,273.79,❌ Skip
+131,(income_Category == $60K - $80K) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-0.47,5.9%,273.32,❌ Skip
+79,(Total_Trans_Amt <= 7730) AND (income_Category == $60K - $80...,❌ AVOID (negative),-0.48,4.4%,272.84,❌ Skip
+238,(income_Category == $40K - $60K) AND (CLIENTNUM <= 718372458...,❌ AVOID (negative),-0.52,5.9%,272.32,❌ Skip
+153,(Avg_Utilization_Ratio > 0.137) AND (income_Category == $40K...,❌ AVOID (negative),-0.52,4.4%,271.80,❌ Skip
+152,(Avg_Utilization_Ratio > 0.137) AND (income_Category == $80K...,❌ AVOID (negative),-0.52,5.9%,271.28,❌ Skip
+73,(card_Category == Blue) AND (Dependent_count > 1) AND (Custo...,❌ AVOID (negative),-0.52,4.4%,270.76,❌ Skip
+204,(income_Category == $120K +) AND (Dependent_count <= 3) AND ...,❌ AVOID (negative),-0.52,4.4%,270.24,❌ Skip
+24,(income_Category == $80K - $120K) AND (card_Category == Blue...,❌ AVOID (negative),-0.57,4.4%,269.67,❌ Skip
+59,(education_Level == High School),❌ AVOID (negative),-0.57,4.4%,269.10,❌ Skip
+149,(Avg_Utilization_Ratio <= 0.137) AND (income_Category == $60...,❌ AVOID (negative),-0.58,7.4%,268.52,❌ Skip
+94,(income_Category == $80K - $120K) AND (Total_Trans_Amt <= 26...,❌ AVOID (negative),-0.61,8.8%,267.91,❌ Skip
+44,(card_Category == Blue) AND (education_Level == High School),❌ AVOID (negative),-0.65,7.4%,267.26,❌ Skip
+223,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-0.65,4.4%,266.61,❌ Skip
+119,(card_Category == Blue) AND (CLIENTNUM > 717381183) AND (CLI...,❌ AVOID (negative),-0.70,5.9%,265.91,❌ Skip
+69,(card_Category == Blue) AND (Dependent_count > 1) AND (Custo...,❌ AVOID (negative),-0.70,23.6%,265.21,❌ Skip
+273,(Avg_Utilization_Ratio <= 0.105) AND (income_Category == $40...,❌ AVOID (negative),-0.70,4.4%,264.51,❌ Skip
+155,(Avg_Utilization_Ratio > 0.137) AND (income_Category == Less...,❌ AVOID (negative),-0.74,4.4%,263.77,❌ Skip
+40,(Total_Trans_Amt > 2748) AND (income_Category == $80K - $120...,❌ AVOID (negative),-0.74,4.4%,263.03,❌ Skip
+267,(marital_Status == Married) AND (Avg_Utilization_Ratio > 0.1...,❌ AVOID (negative),-0.78,4.4%,262.25,❌ Skip
+196,(Avg_Utilization_Ratio > 0.115) AND (Avg_Utilization_Ratio <...,❌ AVOID (negative),-0.78,8.8%,261.47,❌ Skip
+37,(Total_Trans_Amt <= 2748) AND (income_Category == $40K - $60...,❌ AVOID (negative),-0.81,5.9%,260.66,❌ Skip
+112,(card_Category == Blue) AND (income_Category == $40K - $60K),❌ AVOID (negative),-0.83,4.4%,259.83,❌ Skip
+61,(education_Level == Graduate) AND (marital_Status == Married...,❌ AVOID (negative),-0.87,4.4%,258.96,❌ Skip
+258,(income_Category == $60K - $80K) AND (education_Level == Hig...,❌ AVOID (negative),-0.87,4.4%,258.09,❌ Skip
+49,(Total_Trans_Amt <= 6826) AND (income_Category == Less than ...,❌ AVOID (negative),-0.87,5.9%,257.22,❌ Skip
+154,(Avg_Utilization_Ratio > 0.137) AND (income_Category == Less...,❌ AVOID (negative),-0.87,5.9%,256.35,❌ Skip
+120,(card_Category == Blue) AND (CLIENTNUM > 717381183) AND (CLI...,❌ AVOID (negative),-0.87,4.4%,255.48,❌ Skip
+181,(income_Category == Less than $40K) AND (marital_Status == S...,❌ AVOID (negative),-0.92,4.4%,254.56,❌ Skip
+210,(card_Category == Blue) AND (education_Level == College),❌ AVOID (negative),-0.96,8.8%,253.60,❌ Skip
+188,(Avg_Utilization_Ratio > 0.165) AND (Total_Amt_Chng_Q4_Q1 > ...,❌ AVOID (negative),-0.96,8.8%,252.64,❌ Skip
+48,(Total_Trans_Amt <= 6826) AND (income_Category == $60K - $80...,❌ AVOID (negative),-0.96,8.8%,251.68,❌ Skip
+104,(income_Category == $80K - $120K) AND (Naive_Bayes_Classifie...,❌ AVOID (negative),-0.99,5.9%,250.69,❌ Skip
+166,(card_Category == Blue) AND (CLIENTNUM > 717788958) AND (Dep...,❌ AVOID (negative),-0.99,5.9%,249.70,❌ Skip
+259,(income_Category == Less than $40K) AND (Avg_Utilization_Rat...,❌ AVOID (negative),-1.00,4.4%,248.70,❌ Skip
+96,(income_Category == $80K - $120K) AND (Total_Trans_Amt <= 26...,❌ AVOID (negative),-1.05,4.4%,247.65,❌ Skip
+224,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-1.09,7.4%,246.56,❌ Skip
+81,(Total_Trans_Amt <= 7730) AND (income_Category == $80K - $12...,❌ AVOID (negative),-1.16,5.9%,245.40,❌ Skip
+239,(income_Category == $40K - $60K) AND (CLIENTNUM > 718372458),❌ AVOID (negative),-1.18,4.4%,244.22,❌ Skip
+114,(income_Category == $80K - $120K) AND (Total_Amt_Chng_Q4_Q1 ...,❌ AVOID (negative),-1.22,4.4%,243.00,❌ Skip
+178,(Avg_Utilization_Ratio > 0.223) AND (education_Level == Doct...,❌ AVOID (negative),-1.22,4.4%,241.78,❌ Skip
+206,(income_Category == $60K - $80K) AND (CLIENTNUM <= 715026258...,❌ AVOID (negative),-1.22,4.4%,240.56,❌ Skip
+254,(Avg_Utilization_Ratio > 0.186) AND (income_Category == $40K...,❌ AVOID (negative),-1.26,4.4%,239.30,❌ Skip
+66,(income_Category == $40K - $60K) AND (card_Category == Blue),❌ AVOID (negative),-1.31,4.4%,237.99,❌ Skip
+226,(income_Category == $40K - $60K) AND (education_Level == Gra...,❌ AVOID (negative),-1.31,4.4%,236.68,❌ Skip
+144,(Avg_Utilization_Ratio > 0.187) AND (CLIENTNUM <= 719484408),❌ AVOID (negative),-1.31,4.4%,235.37,❌ Skip
+292,(card_Category == Blue) AND (income_Category == Unknown) AND...,❌ AVOID (negative),-1.35,4.4%,234.02,❌ Skip
+82,(Total_Trans_Amt <= 7730) AND (income_Category == Unknown),❌ AVOID (negative),-1.40,5.9%,232.62,❌ Skip
+29,(Avg_Utilization_Ratio > 0.098) AND (Avg_Utilization_Ratio <...,❌ AVOID (negative),-1.40,11.8%,231.22,❌ Skip
+244,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-1.40,4.4%,229.82,❌ Skip
+111,(card_Category == Blue) AND (income_Category == $60K - $80K)...,❌ AVOID (negative),-1.44,4.4%,228.38,❌ Skip
+31,(Avg_Utilization_Ratio > 0.098) AND (Avg_Utilization_Ratio <...,❌ AVOID (negative),-1.45,7.4%,226.93,❌ Skip
+174,(Avg_Utilization_Ratio <= 0.223) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-1.51,5.9%,225.42,❌ Skip
+6,(Total_Trans_Amt <= 8192) AND (income_Category == $60K - $80...,❌ AVOID (negative),-1.51,5.9%,223.91,❌ Skip
+33,(Avg_Utilization_Ratio > 0.098) AND (Avg_Utilization_Ratio >...,❌ AVOID (negative),-1.53,4.4%,222.38,❌ Skip
+105,(income_Category == $40K - $60K) AND (attrition_Flag == Exis...,❌ AVOID (negative),-1.53,7.4%,220.85,❌ Skip
+92,(income_Category == Less than $40K) AND (Avg_Utilization_Rat...,❌ AVOID (negative),-1.53,4.4%,219.32,❌ Skip
+228,(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0.118),❌ AVOID (negative),-1.63,11.8%,217.69,❌ Skip
+199,(Avg_Utilization_Ratio > 0.115) AND (Avg_Utilization_Ratio >...,❌ AVOID (negative),-1.63,5.9%,216.06,❌ Skip
+266,(marital_Status == Married) AND (Avg_Utilization_Ratio > 0.1...,❌ AVOID (negative),-1.66,8.8%,214.40,❌ Skip
+99,(income_Category == Less than $40K) AND (card_Category == Bl...,❌ AVOID (negative),-1.69,5.9%,212.71,❌ Skip
+159,(card_Category == Blue) AND (CLIENTNUM <= 789218433) AND (in...,❌ AVOID (negative),-1.69,5.9%,211.02,❌ Skip
+134,(income_Category == Less than $40K) AND (Total_Amt_Chng_Q4_Q...,❌ AVOID (negative),-1.70,4.4%,209.32,❌ Skip
+200,(Avg_Utilization_Ratio > 0.115) AND (Avg_Utilization_Ratio >...,❌ AVOID (negative),-1.74,4.4%,207.58,❌ Skip
+52,(Total_Trans_Amt <= 6826) AND (income_Category == Unknown),❌ AVOID (negative),-1.74,5.9%,205.84,❌ Skip
+121,(card_Category == Blue) AND (CLIENTNUM > 717381183) AND (CLI...,❌ AVOID (negative),-1.74,4.4%,204.10,❌ Skip
+189,(Avg_Utilization_Ratio > 0.165) AND (Total_Amt_Chng_Q4_Q1 > ...,❌ AVOID (negative),-1.82,7.4%,202.28,❌ Skip
+60,(education_Level == Graduate),❌ AVOID (negative),-1.83,8.8%,200.45,❌ Skip
+158,(card_Category == Blue) AND (CLIENTNUM <= 789218433) AND (in...,❌ AVOID (negative),-1.83,10.3%,198.62,❌ Skip
+190,(Avg_Utilization_Ratio > 0.165) AND (Total_Amt_Chng_Q4_Q1 <=...,❌ AVOID (negative),-1.86,5.9%,196.76,❌ Skip
+216,(Avg_Utilization_Ratio <= 0.111) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-1.92,5.9%,194.84,❌ Skip
+252,(Avg_Utilization_Ratio <= 0.186) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-1.98,5.9%,192.86,❌ Skip
+255,(Avg_Utilization_Ratio > 0.186) AND (income_Category == Less...,❌ AVOID (negative),-2.01,4.4%,190.85,❌ Skip
+50,(Total_Trans_Amt <= 6826) AND (income_Category == $40K - $60...,❌ AVOID (negative),-2.01,8.8%,188.84,❌ Skip
+214,(Avg_Utilization_Ratio <= 0.111) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-2.03,10.3%,186.81,❌ Skip
+41,(Total_Trans_Amt > 2748) AND (income_Category == Less than $...,❌ AVOID (negative),-2.03,7.4%,184.78,❌ Skip
+9,(income_Category == $40K - $60K) AND (attrition_Flag == Attr...,❌ AVOID (negative),-2.09,4.4%,182.69,❌ Skip
+230,(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0.118)...,❌ AVOID (negative),-2.09,5.9%,180.60,❌ Skip
+115,(income_Category == $40K - $60K) AND (marital_Status == Sing...,❌ AVOID (negative),-2.14,4.4%,178.46,❌ Skip
+291,(card_Category == Blue) AND (income_Category == Unknown),❌ AVOID (negative),-2.15,5.9%,176.31,❌ Skip
+241,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-2.18,14.7%,174.13,❌ Skip
+211,(card_Category == Blue) AND (education_Level == Graduate) AN...,❌ AVOID (negative),-2.21,5.9%,171.92,❌ Skip
+168,(card_Category == Blue) AND (CLIENTNUM > 717788958) AND (Dep...,❌ AVOID (negative),-2.25,7.4%,169.67,❌ Skip
+287,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio <= 0) A...,❌ AVOID (negative),-2.38,5.9%,167.29,❌ Skip
+175,(Avg_Utilization_Ratio <= 0.223) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-2.40,4.4%,164.89,❌ Skip
+225,(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND...,❌ AVOID (negative),-2.44,5.9%,162.45,❌ Skip
+116,(card_Category == Blue) AND (CLIENTNUM > 717381183),❌ AVOID (negative),-2.44,20.6%,160.01,❌ Skip
+269,(marital_Status == Single),❌ AVOID (negative),-2.49,13.3%,157.52,❌ Skip
+151,(Avg_Utilization_Ratio > 0.137),❌ AVOID (negative),-2.62,22.1%,154.90,❌ Skip
+83,(Total_Trans_Amt <= 7730) AND (income_Category == Less than ...,❌ AVOID (negative),-2.62,7.4%,152.28,❌ Skip
+100,(income_Category == $40K - $60K) AND (gender == F),❌ AVOID (negative),-2.70,4.4%,149.58,❌ Skip
+187,(Avg_Utilization_Ratio > 0.165) AND (Total_Amt_Chng_Q4_Q1 > ...,❌ AVOID (negative),-2.72,16.2%,146.86,❌ Skip
+233,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0.118) ...,❌ AVOID (negative),-2.72,16.2%,144.14,❌ Skip
+128,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-2.73,5.9%,141.41,❌ Skip
+260,(income_Category == Less than $40K) AND (Avg_Utilization_Rat...,❌ AVOID (negative),-2.75,4.4%,138.66,❌ Skip
+107,(income_Category == $40K - $60K) AND (Total_Trans_Ct <= 66),❌ AVOID (negative),-2.76,7.4%,135.90,❌ Skip
+274,(Avg_Utilization_Ratio > 0.105),❌ AVOID (negative),-2.88,26.5%,133.02,❌ Skip
+7,(Total_Trans_Amt <= 8192) AND (income_Category == Less than ...,❌ AVOID (negative),-2.97,8.8%,130.05,❌ Skip
+160,(card_Category == Blue) AND (CLIENTNUM <= 789218433) AND (in...,❌ AVOID (negative),-2.98,7.4%,127.07,❌ Skip
+251,(Avg_Utilization_Ratio <= 0.186) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-3.05,10.3%,124.02,❌ Skip
+245,(card_Category == Blue) AND (Avg_Utilization_Ratio <= 0) AND...,❌ AVOID (negative),-3.05,10.3%,120.97,❌ Skip
+14,(Avg_Utilization_Ratio > 0) AND (Avg_Utilization_Ratio > 0.1...,❌ AVOID (negative),-3.26,10.3%,117.71,❌ Skip
+231,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0.118),❌ AVOID (negative),-3.27,22.1%,114.44,❌ Skip
+220,(Avg_Utilization_Ratio > 0.111) AND (Avg_Utilization_Ratio >...,❌ AVOID (negative),-3.27,13.3%,111.17,❌ Skip
+142,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-3.31,5.9%,107.86,❌ Skip
+118,(card_Category == Blue) AND (CLIENTNUM > 717381183) AND (CLI...,❌ AVOID (negative),-3.34,14.7%,104.52,❌ Skip
+217,(Avg_Utilization_Ratio > 0.111),❌ AVOID (negative),-3.46,25.1%,101.06,❌ Skip
+76,(Total_Trans_Amt <= 7730),❌ AVOID (negative),-3.49,35.4%,97.57,❌ Skip
+176,(Avg_Utilization_Ratio > 0.223),❌ AVOID (negative),-3.52,16.2%,94.05,❌ Skip
+126,(card_Category == Blue) AND (Avg_Utilization_Ratio > 0) AND ...,❌ AVOID (negative),-3.53,13.3%,90.52,❌ Skip
+38,(Total_Trans_Amt > 2748),❌ AVOID (negative),-3.71,22.1%,86.81,❌ Skip
+74,(card_Category == Blue) AND (Dependent_count <= 1),❌ AVOID (negative),-3.72,11.8%,83.09,❌ Skip
+279,(Total_Trans_Amt <= 4724),❌ AVOID (negative),-3.84,35.4%,79.25,❌ Skip
+173,(Avg_Utilization_Ratio <= 0.223) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-3.92,14.7%,75.33,❌ Skip
+285,(Total_Trans_Amt <= 4724) AND (Avg_Utilization_Ratio <= 0),❌ AVOID (negative),-4.00,16.2%,71.33,❌ Skip
+32,(Avg_Utilization_Ratio > 0.098) AND (Avg_Utilization_Ratio >...,❌ AVOID (negative),-4.06,13.3%,67.27,❌ Skip
+141,(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio ...,❌ AVOID (negative),-4.10,8.8%,63.17,❌ Skip
+253,(Avg_Utilization_Ratio > 0.186),❌ AVOID (negative),-4.51,14.7%,58.66,❌ Skip
+145,(Avg_Utilization_Ratio > 0.187) AND (CLIENTNUM > 719484408),❌ AVOID (negative),-4.51,7.4%,54.15,❌ Skip
+186,(Avg_Utilization_Ratio > 0.165),❌ AVOID (negative),-4.58,22.1%,49.57,❌ Skip
+198,(Avg_Utilization_Ratio > 0.115) AND (Avg_Utilization_Ratio >...,❌ AVOID (negative),-4.65,14.7%,44.92,❌ Skip
+47,(Total_Trans_Amt <= 6826),❌ AVOID (negative),-4.80,32.4%,40.12,❌ Skip
+3,(Total_Trans_Amt <= 8192),❌ AVOID (negative),-4.88,35.4%,35.24,❌ Skip
+167,(card_Category == Blue) AND (CLIENTNUM > 717788958) AND (Dep...,❌ AVOID (negative),-4.97,13.3%,30.27,❌ Skip
+122,(card_Category == Blue) AND (CLIENTNUM <= 717381183),❌ AVOID (negative),-5.12,11.8%,25.15,❌ Skip
+195,(Avg_Utilization_Ratio > 0.115),❌ AVOID (negative),-5.35,23.6%,19.80,❌ Skip
+28,(Avg_Utilization_Ratio > 0.098),❌ AVOID (negative),-5.44,25.1%,14.36,❌ Skip
+15,(Avg_Utilization_Ratio <= 0),❌ AVOID (negative),-5.76,13.3%,8.60,❌ Skip
+143,(Avg_Utilization_Ratio > 0.187),❌ AVOID (negative),-5.81,11.8%,2.79,❌ Skip
+165,(card_Category == Blue) AND (CLIENTNUM > 717788958),❌ AVOID (negative),-5.86,19.2%,-3.07,❌ Skip
+17,(Avg_Utilization_Ratio <= 0) AND (Customer_Age > 44),❌ AVOID (negative),-5.96,7.4%,-9.03,❌ Skip
+157,(card_Category == Blue) AND (CLIENTNUM <= 789218433),❌ AVOID (negative),-7.73,28.0%,-16.76,❌ Skip

@@ -1,0 +1,8 @@
+run,accuracy,features,num_features,feature_set,stability,feature_set_name
+6,81,"['Avg_Utilization_Ratio', 'CLIENTNUM', 'income_Category']",3,"('Avg_Utilization_Ratio', 'CLIENTNUM', 'income_Category')",42.0,"Avg_Utilization_Ratio, CLIENTNUM, income_Category"
+16,64,"['Avg_Utilization_Ratio', 'income_Category']",2,"('Avg_Utilization_Ratio', 'income_Category')",57.99999999999999,"Avg_Utilization_Ratio, income_Category"
+21,71,"['Avg_Utilization_Ratio', 'education_Level']",2,"('Avg_Utilization_Ratio', 'education_Level')",56.99999999999999,"Avg_Utilization_Ratio, education_Level"
+24,77,"['Total_Amt_Chng_Q4_Q1', 'education_Level', 'income_Category']",3,"('Total_Amt_Chng_Q4_Q1', 'education_Level', 'income_Category')",56.666666666666664,"Total_Amt_Chng_Q4_Q1, education_Level, income_Category"
+29,81,"['Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'education_Level', 'income_Category', 'marital_Status']",4,"('Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1', 'education_Level', 'income_Category', 'marital_Status')",49.0,"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1, education_Level, income_Category, marital_Status"
+32,57,"['education_Level', 'income_Category']",2,"('education_Level', 'income_Category')",79.0,"education_Level, income_Category"
+49,64,"['card_Category', 'education_Level', 'income_Category']",3,"('card_Category', 'education_Level', 'income_Category')",65.33333333333333,"card_Category, education_Level, income_Category"
