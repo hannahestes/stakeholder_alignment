@@ -1,8 +1,0 @@
-run,accuracy,features,num_features,feature_set,stability,feature_set_name
-15,60,"['card_Category', 'income_Category']",2,"('card_Category', 'income_Category')",60.0,"card_Category, income_Category"
-20,94,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')",61.33333333333334,"Avg_Utilization_Ratio, education_Level, income_Category"
-27,100,"['Avg_Utilization_Ratio', 'education_Level']",2,"('Avg_Utilization_Ratio', 'education_Level')",52.0,"Avg_Utilization_Ratio, education_Level"
-30,22,"['education_Level', 'income_Category']",2,"('education_Level', 'income_Category')",74.0,"education_Level, income_Category"
-31,76,"['income_Category', 'marital_Status']",2,"('income_Category', 'marital_Status')",56.00000000000001,"income_Category, marital_Status"
-33,65,[],0,(),0.0,(no features)
-48,69,"['card_Category', 'education_Level', 'income_Category']",3,"('card_Category', 'education_Level', 'income_Category')",62.66666666666666,"card_Category, education_Level, income_Category"

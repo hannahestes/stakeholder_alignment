@@ -1,4 +1,0 @@
-run_num,features,complexity,win,on_knee
-446,"attrition_Flag, gender, education_Level, marital_Status, income_Category",5,0,False
-108,"education_Level, income_Category",2,-2,False
-417,income_Category,1,-19,True

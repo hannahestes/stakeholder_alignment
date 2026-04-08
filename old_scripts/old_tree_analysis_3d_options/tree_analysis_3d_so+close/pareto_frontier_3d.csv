@@ -1,7 +1,0 @@
-run,accuracy,features,num_features,feature_set,stability,feature_set_name
-8,78,"['Avg_Utilization_Ratio', 'income_Category', 'marital_Status']",3,"('Avg_Utilization_Ratio', 'income_Category', 'marital_Status')",60.0,"Avg_Utilization_Ratio, income_Category, marital_Status"
-12,68,"['Avg_Utilization_Ratio', 'education_Level']",2,"('Avg_Utilization_Ratio', 'education_Level')",59.0,"Avg_Utilization_Ratio, education_Level"
-13,69,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')",68.0,"Avg_Utilization_Ratio, education_Level, income_Category"
-38,67,"['card_Category', 'income_Category']",2,"('card_Category', 'income_Category')",63.0,"card_Category, income_Category"
-40,80,"['Avg_Utilization_Ratio', 'Total_Amt_Chng_Q4_Q1', 'education_Level', 'income_Category']",4,"('Avg_Utilization_Ratio', 'Total_Amt_Chng_Q4_Q1', 'education_Level', 'income_Category')",53.0,"Avg_Utilization_Ratio, Total_Amt_Chng_Q4_Q1, education_Level, income_Category"
-49,-3,"['education_Level', 'income_Category']",2,"('education_Level', 'income_Category')",78.0,"education_Level, income_Category"

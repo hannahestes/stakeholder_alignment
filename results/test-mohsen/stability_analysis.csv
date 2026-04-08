@@ -1,0 +1,11 @@
+run_num,pareto_front_size,num_consensus_features,num_exploratory_features,accuracy_min,accuracy_max
+5,2,2,3,64,66
+10,3,2,5,64,86
+15,4,1,7,59,86
+20,3,2,7,59,98
+25,3,2,9,59,98
+30,4,1,9,59,98
+35,4,1,11,61,98
+40,4,1,12,61,98
+45,4,1,11,61,98
+50,4,1,12,61,98

@@ -1,4 +1,0 @@
-run_num,features,complexity,win,on_knee
-6,"CLIENTNUM, attrition_Flag, marital_Status, card_Category, Avg_Utilization_Ratio",5,94,False
-43,"Customer_Age, income_Category, card_Category, Total_Trans_Amt",4,75,False
-37,education_Level,1,70,True

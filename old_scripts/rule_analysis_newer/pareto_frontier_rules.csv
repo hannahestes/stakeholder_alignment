@@ -1,3 +1,0 @@
-rule,complexity,impact,coverage,penetration,avg_win,recommendation,is_knee
-(Avg_Utilization_Ratio <= 0.187),1,5.76,32.4,2.0,18.0,⭐ EASY WIN,True
-(Avg_Utilization_Ratio <= 0.187) AND (Avg_Utilization_Ratio > 0),2,10.0,23.6,2.0,43.0,⭐ EASY WIN,False

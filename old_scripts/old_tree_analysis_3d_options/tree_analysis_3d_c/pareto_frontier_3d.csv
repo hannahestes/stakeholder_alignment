@@ -1,8 +1,0 @@
-run,accuracy,features,num_features,feature_set,stability,feature_set_name
-18,53,"['education_Level', 'income_Category']",2,"('education_Level', 'income_Category')",72.0,"education_Level, income_Category"
-19,81,"['Customer_Age', 'card_Category', 'income_Category']",3,"('Customer_Age', 'card_Category', 'income_Category')",47.333333333333336,"Customer_Age, card_Category, income_Category"
-22,70,"['education_Level', 'income_Category', 'marital_Status']",3,"('education_Level', 'income_Category', 'marital_Status')",63.33333333333333,"education_Level, income_Category, marital_Status"
-42,98,"['Avg_Utilization_Ratio', 'Total_Relationship_Count', 'attrition_Flag', 'card_Category', 'income_Category', 'marital_Status']",6,"('Avg_Utilization_Ratio', 'Total_Relationship_Count', 'attrition_Flag', 'card_Category', 'income_Category', 'marital_Status')",41.666666666666664,"Avg_Utilization_Ratio, Total_Relationship_Count, attrition_Flag, card_Category, income_Category, marital_Status"
-43,74,"['Avg_Utilization_Ratio', 'education_Level']",2,"('Avg_Utilization_Ratio', 'education_Level')",56.00000000000001,"Avg_Utilization_Ratio, education_Level"
-46,64,"['Avg_Utilization_Ratio', 'education_Level', 'income_Category']",3,"('Avg_Utilization_Ratio', 'education_Level', 'income_Category')",64.66666666666667,"Avg_Utilization_Ratio, education_Level, income_Category"
-48,63,"['card_Category', 'income_Category']",2,"('card_Category', 'income_Category')",64.0,"card_Category, income_Category"

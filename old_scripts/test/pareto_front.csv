@@ -1,4 +1,0 @@
-run_num,features,complexity,win,on_knee
-10,"attrition_Flag, education_Level, marital_Status, income_Category, card_Category",5,-15,False
-14,"education_Level, marital_Status, income_Category, Avg_Utilization_Ratio",4,-18,False
-12,"education_Level, Total_Trans_Amt",2,-20,True

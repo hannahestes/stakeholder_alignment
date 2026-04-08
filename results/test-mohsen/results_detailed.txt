@@ -1,0 +1,369 @@
+================================================================================
+EZR STABILITY ANALYSIS - DETAILED RESULTS
+================================================================================
+
+Generated: 2026-04-07 15:06:52
+Dataset: /Users/hmestes/gits/moot/optimize/financial_data/BankChurners.csv
+Total Runs: 50
+
+================================================================================
+1. ALL GENERATED TREES (50 trees)
+================================================================================
+
+
+Run 1:   off frontier
+  Features (4): Dependent_count, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 57
+
+Run 2:   off frontier
+  Features (6): education_Level, income_Category, card_Category, Months_Inactive_12_mon, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt
+  Accuracy (win): 47
+
+Run 3:   off frontier
+  Features (7): attrition_Flag, education_Level, marital_Status, income_Category, card_Category, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt
+  Accuracy (win): 66
+
+Run 4:   off frontier
+  Features (3): education_Level, card_Category, Total_Amt_Chng_Q4_Q1
+  Accuracy (win): 64
+
+Run 5:   off frontier
+  Features (4): attrition_Flag, education_Level, marital_Status, income_Category
+  Accuracy (win): 63
+
+Run 6:   off frontier
+  Features (5): attrition_Flag, education_Level, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 65
+
+Run 7:   off frontier
+  Features (4): CLIENTNUM, education_Level, marital_Status, card_Category
+  Accuracy (win): 48
+
+Run 8:   off frontier
+  Features (3): education_Level, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 62
+
+Run 9:   off frontier
+  Features (6): attrition_Flag, education_Level, marital_Status, income_Category, card_Category, Avg_Utilization_Ratio
+  Accuracy (win): 86
+
+Run 10:   off frontier
+  Features (4): education_Level, marital_Status, income_Category, card_Category
+  Accuracy (win): 67
+
+Run 11:   off frontier
+  Features (3): attrition_Flag, education_Level, income_Category
+  Accuracy (win): 57
+
+Run 12:   off frontier
+  Features (3): education_Level, card_Category, Avg_Utilization_Ratio
+  Accuracy (win): -29
+
+Run 13:   off frontier
+  Features (3): marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 44
+
+Run 14:   off frontier
+  Features (3): income_Category, Months_on_book, Total_Amt_Chng_Q4_Q1
+  Accuracy (win): 57
+
+Run 15:   off frontier
+  Features (2): education_Level, Avg_Utilization_Ratio
+  Accuracy (win): 59
+
+Run 16: ✓ ON FRONTIER
+  Features (4): attrition_Flag, education_Level, income_Category, card_Category
+  Accuracy (win): 98
+
+Run 17: ✓ ON FRONTIER
+  Features (3): education_Level, income_Category, card_Category
+  Accuracy (win): 73
+
+Run 18:   off frontier
+  Features (4): gender, education_Level, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 73
+
+Run 19:   off frontier
+  Features (5): CLIENTNUM, attrition_Flag, education_Level, marital_Status, income_Category
+  Accuracy (win): 35
+
+Run 20:   off frontier
+  Features (4): attrition_Flag, education_Level, marital_Status, income_Category
+  Accuracy (win): 64
+
+Run 21:   off frontier
+  Features (4): CLIENTNUM, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 66
+
+Run 22:   off frontier
+  Features (3): education_Level, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 60
+
+Run 23:   off frontier
+  Features (3): marital_Status, income_Category, Months_on_book
+  Accuracy (win): 52
+
+Run 24:   off frontier
+  Features (4): education_Level, income_Category, card_Category, Total_Trans_Ct
+  Accuracy (win): 24
+
+Run 25:   off frontier
+  Features (3): education_Level, marital_Status, income_Category
+  Accuracy (win): 17
+
+Run 26:   off frontier
+  Features (4): gender, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 63
+
+Run 27: ✓ ON FRONTIER
+  Features (3): education_Level, marital_Status, Avg_Utilization_Ratio
+  Accuracy (win): 73
+
+Run 28:   off frontier
+  Features (6): Dependent_count, education_Level, card_Category, Total_Amt_Chng_Q4_Q1, Total_Trans_Ct, Avg_Utilization_Ratio
+  Accuracy (win): 45
+
+Run 29:   off frontier
+  Features (5): attrition_Flag, education_Level, marital_Status, income_Category, card_Category
+  Accuracy (win): 80
+
+Run 30:   off frontier
+  Features (4): CLIENTNUM, income_Category, Total_Trans_Amt, Avg_Utilization_Ratio
+  Accuracy (win): 69
+
+Run 31:   off frontier
+  Features (4): education_Level, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 67
+
+Run 32:   off frontier
+  Features (5): attrition_Flag, Customer_Age, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 44
+
+Run 33:   off frontier
+  Features (5): education_Level, Total_Relationship_Count, Months_Inactive_12_mon, Total_Amt_Chng_Q4_Q1, Avg_Utilization_Ratio
+  Accuracy (win): 54
+
+Run 34: ✓ ON FRONTIER
+  Features (2): income_Category, card_Category
+  Accuracy (win): 61
+
+Run 35:   off frontier
+  Features (3): education_Level, income_Category, card_Category
+  Accuracy (win): 72
+
+Run 36:   off frontier
+  Features (4): gender, education_Level, marital_Status, income_Category
+  Accuracy (win): 63
+
+Run 37:   off frontier
+  Features (4): education_Level, marital_Status, income_Category, Total_Amt_Chng_Q4_Q1
+  Accuracy (win): 36
+
+Run 38:   off frontier
+  Features (3): marital_Status, income_Category, Months_Inactive_12_mon
+  Accuracy (win): 67
+
+Run 39:   off frontier
+  Features (4): education_Level, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 81
+
+Run 40:   off frontier
+  Features (6): attrition_Flag, Dependent_count, marital_Status, income_Category, card_Category, Total_Amt_Chng_Q4_Q1
+  Accuracy (win): 25
+
+Run 41:   off frontier
+  Features (3): marital_Status, income_Category, card_Category
+  Accuracy (win): 42
+
+Run 42:   off frontier
+  Features (5): education_Level, income_Category, card_Category, Total_Amt_Chng_Q4_Q1, Avg_Utilization_Ratio
+  Accuracy (win): 68
+
+Run 43:   off frontier
+  Features (4): gender, income_Category, card_Category, Months_on_book
+  Accuracy (win): 54
+
+Run 44:   off frontier
+  Features (4): attrition_Flag, education_Level, income_Category, card_Category
+  Accuracy (win): 63
+
+Run 45:   off frontier
+  Features (6): attrition_Flag, marital_Status, income_Category, card_Category, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt
+  Accuracy (win): 44
+
+Run 46:   off frontier
+  Features (3): education_Level, income_Category, Total_Amt_Chng_Q4_Q1
+  Accuracy (win): 24
+
+Run 47:   off frontier
+  Features (3): education_Level, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 26
+
+Run 48:   off frontier
+  Features (3): gender, marital_Status, income_Category
+  Accuracy (win): 65
+
+Run 49:   off frontier
+  Features (4): CLIENTNUM, marital_Status, income_Category, Avg_Utilization_Ratio
+  Accuracy (win): 55
+
+Run 50:   off frontier
+  Features (6): CLIENTNUM, Customer_Age, marital_Status, income_Category, Months_Inactive_12_mon, Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1
+  Accuracy (win): 44
+
+
+================================================================================
+2. FEATURE FREQUENCY ANALYSIS
+================================================================================
+
+Total Runs: 50
+
+---
+CONSENSUS FEATURES (≥80% of runs)
+---
+  income_Category                          43/50    86.0%
+
+---
+IMPORTANT FEATURES (60-80% of runs)
+---
+  education_Level                          33/50    66.0%
+
+---
+UNCERTAIN FEATURES (40-60% of runs)
+---
+  marital_Status                           28/50    56.0%
+  Avg_Utilization_Ratio                    21/50    42.0%
+  card_Category                            20/50    40.0%
+
+---
+EXPLORATORY FEATURES (<40% of runs)
+---
+  CLIENTNUM                                 6/50    12.0%
+  Customer_Age                              2/50     4.0%
+  Dependent_count                           3/50     6.0%
+  Months_Inactive_12_mon                    4/50     8.0%
+  Months_on_book                            3/50     6.0%
+  Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1  1/50     2.0%
+  Total_Amt_Chng_Q4_Q1                     11/50    22.0%
+  Total_Relationship_Count                  1/50     2.0%
+  Total_Trans_Amt                           4/50     8.0%
+  Total_Trans_Ct                            2/50     4.0%
+  attrition_Flag                           13/50    26.0%
+  gender                                    5/50    10.0%
+
+
+================================================================================
+3. PARETO FRONT (4 trees on frontier)
+================================================================================
+
+Trees that are not dominated on both accuracy AND complexity:
+
+
+1. Run 16
+   Features (4): attrition_Flag, education_Level, income_Category, card_Category
+   Accuracy: 98
+
+2. Run 17
+   Features (3): education_Level, income_Category, card_Category
+   Accuracy: 73
+
+3. Run 27
+   Features (3): education_Level, marital_Status, Avg_Utilization_Ratio
+   Accuracy: 73
+
+4. Run 34 ← KNEE OF CURVE
+   Features (2): income_Category, card_Category
+   Accuracy: 61
+
+
+================================================================================
+4. STABILITY HISTORY (Convergence tracking)
+================================================================================
+
+Checked every 5 runs to monitor frontier and feature convergence:
+
+Run #  │ Frontier Size │ Consensus Feat │ Exploratory │ Accuracy Range
+─────────────────────────────────────────────────────────────────────────
+    5  │       2        │        2        │      3      │  64-66
+   10  │       3        │        2        │      5      │  64-86
+   15  │       4        │        1        │      7      │  59-86
+   20  │       3        │        2        │      7      │  59-98
+   25  │       3        │        2        │      9      │  59-98
+   30  │       4        │        1        │      9      │  59-98
+   35  │       4        │        1        │     11      │  61-98
+   40  │       4        │        1        │     12      │  61-98
+   45  │       4        │        1        │     11      │  61-98
+   50  │       4        │        1        │     12      │  61-98
+
+
+================================================================================
+5. SUMMARY STATISTICS
+================================================================================
+
+ACCURACY:
+  Minimum: -29
+  Maximum: 98
+  Mean (frontier): 76.2
+  Range: -29 to 98
+
+COMPLEXITY (Number of features):
+  Minimum: 2
+  Maximum: 7
+  Mean (frontier): 3.0
+  Range: 2 to 7
+
+FRONTIER CHARACTERISTICS:
+  Number of trees: 4
+  Minimum complexity: 2
+  Maximum complexity: 4
+  Accuracy range: 61 to 98
+
+FEATURES:
+  Total unique features: 17
+  Consensus (≥80%): 1
+  Important (60-80%): 1
+  Uncertain (40-60%): 3
+  Exploratory (<40%): 12
+
+================================================================================
+6. CONVERGENCE ASSESSMENT
+================================================================================
+
+PARETO FRONT:
+  ✓ STABLE - Frontier size 4 unchanged since run 45
+
+CONSENSUS FEATURES:
+  ✓ STABLE - 1 consensus features unchanged
+
+
+================================================================================
+7. RECOMMENDATIONS
+================================================================================
+
+1. FEATURE SELECTION:
+   - Use CONSENSUS features (≥80%) in production models
+   - Investigate IMPORTANT features (60-80%)
+   - Avoid EXPLORATORY features (<40%) unless well-justified
+
+2. MODEL ARCHITECTURE:
+   - The knee of the curve (minimum complexity with max accuracy) is at:
+     2 features with 61 accuracy
+   - No significant accuracy gain beyond this point
+
+3. DATA QUALITY:
+   - Prioritize consensus features for data collection and validation
+   - These appear in 80%+ of optimized models
+
+4. FURTHER ANALYSIS:
+   - Current analysis is stable and sufficient
+
+================================================================================
+
+For detailed analysis, see:
+  - summary_report.md: Executive summary with interpretation
+  - pareto_front.csv: Frontier trees in tabular format
+  - feature_frequency.csv: Feature usage with classifications
+  - all_trees.csv: Complete tree listing
+  - stability_analysis.csv: Convergence metrics by batch
+
+================================================================================

@@ -1,6 +1,0 @@
-run,accuracy,features,num_features,feature_set,stability,feature_set_name
-6,72,"['Avg_Utilization_Ratio', 'income_Category']",2,"('Avg_Utilization_Ratio', 'income_Category')",67.0,"Avg_Utilization_Ratio, income_Category"
-21,85,"['Avg_Utilization_Ratio', 'Total_Amt_Chng_Q4_Q1', 'Total_Trans_Amt', 'education_Level', 'income_Category']",5,"('Avg_Utilization_Ratio', 'Total_Amt_Chng_Q4_Q1', 'Total_Trans_Amt', 'education_Level', 'income_Category')",45.6,"Avg_Utilization_Ratio, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt, education_Level, income_Category"
-25,75,"['Total_Trans_Amt', 'card_Category', 'education_Level', 'income_Category']",4,"('Total_Trans_Amt', 'card_Category', 'education_Level', 'income_Category')",55.00000000000001,"Total_Trans_Amt, card_Category, education_Level, income_Category"
-29,70,"['card_Category', 'education_Level', 'income_Category']",3,"('card_Category', 'education_Level', 'income_Category')",67.33333333333333,"card_Category, education_Level, income_Category"
-48,57,"['education_Level', 'income_Category']",2,"('education_Level', 'income_Category')",79.0,"education_Level, income_Category"
