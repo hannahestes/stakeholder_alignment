@@ -1,5 +1,0 @@
-run_num,features,complexity,win,on_knee
-26,"education_Level, income_Category, Total_Amt_Chng_Q4_Q1, Total_Trans_Amt, Total_Trans_Ct, Avg_Utilization_Ratio",6,100,False
-44,"education_Level, income_Category, card_Category, Avg_Utilization_Ratio",4,98,False
-22,"education_Level, marital_Status, Avg_Utilization_Ratio",3,77,False
-24,"income_Category, Avg_Utilization_Ratio",2,68,True
