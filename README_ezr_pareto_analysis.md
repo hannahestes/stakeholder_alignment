@@ -10,6 +10,7 @@
 
 | Dimension | Meaning | Better when |
 |---|---|---|
+| `accuracy` | EZR hold-out win% — how well the tree predicts | higher *(always included)* |
 | `complexity` | Number of features used | lower |
 | `stability` | Avg feature frequency across runs (%) | higher |
 | `overfitting_gap` | Train accuracy − hold-out accuracy (%) | lower |
